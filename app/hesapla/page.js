@@ -21,20 +21,51 @@ export default function Hesapla() {
 
         <ScoreCalculator onCalculate={handleScoreCalculation} />
 
-        {calculatedScore && calculatedScore.puan > 0 && (
-          <div className="glass-panel" style={{ padding: '30px', textAlign: 'center', marginTop: '40px' }}>
-            <h2 style={{ fontSize: '1.5rem', marginBottom: '10px' }}>Yerleştirme Puanı (OBP Dahil)</h2>
-            <div style={{ fontSize: '3rem', fontWeight: '800', color: 'var(--success)' }}>
-              {calculatedScore.puan}
+        {calculatedScore && calculatedScore.SAY && (
+          <div style={{ marginTop: '40px' }}>
+            <h2 style={{ textAlign: 'center', marginBottom: '30px', fontSize: '2rem' }}>Hesaplama Sonuçları</h2>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '20px' }}>
+              
+              {/* Sayısal Kartı */}
+              <div className="glass-panel" style={{ padding: '25px', textAlign: 'center' }}>
+                <h3 style={{ fontSize: '1.2rem', marginBottom: '10px', color: 'var(--text-muted)' }}>SAYISAL (Y-SAY)</h3>
+                <div style={{ fontSize: '2rem', fontWeight: '800', color: 'var(--success)' }}>
+                  {calculatedScore.SAY.puan}
+                </div>
+                <div style={{ fontSize: '1.5rem', fontWeight: '700', color: 'var(--primary)', marginTop: '10px' }}>
+                  {calculatedScore.SAY.siralama ? calculatedScore.SAY.siralama.toLocaleString('tr-TR') : '-'}
+                </div>
+                <div style={{ fontSize: '0.9rem', color: 'var(--text-muted)', marginTop: '5px' }}>Tahmini Sıralama</div>
+              </div>
+
+              {/* Eşit Ağırlık Kartı */}
+              <div className="glass-panel" style={{ padding: '25px', textAlign: 'center' }}>
+                <h3 style={{ fontSize: '1.2rem', marginBottom: '10px', color: 'var(--text-muted)' }}>EŞİT AĞIRLIK (Y-EA)</h3>
+                <div style={{ fontSize: '2rem', fontWeight: '800', color: 'var(--success)' }}>
+                  {calculatedScore.EA.puan}
+                </div>
+                <div style={{ fontSize: '1.5rem', fontWeight: '700', color: 'var(--primary)', marginTop: '10px' }}>
+                  {calculatedScore.EA.siralama ? calculatedScore.EA.siralama.toLocaleString('tr-TR') : '-'}
+                </div>
+                <div style={{ fontSize: '0.9rem', color: 'var(--text-muted)', marginTop: '5px' }}>Tahmini Sıralama</div>
+              </div>
+
+              {/* Sözel Kartı */}
+              <div className="glass-panel" style={{ padding: '25px', textAlign: 'center' }}>
+                <h3 style={{ fontSize: '1.2rem', marginBottom: '10px', color: 'var(--text-muted)' }}>SÖZEL (Y-SÖZ)</h3>
+                <div style={{ fontSize: '2rem', fontWeight: '800', color: 'var(--success)' }}>
+                  {calculatedScore.SOZ.puan}
+                </div>
+                <div style={{ fontSize: '1.5rem', fontWeight: '700', color: 'var(--primary)', marginTop: '10px' }}>
+                  {calculatedScore.SOZ.siralama ? calculatedScore.SOZ.siralama.toLocaleString('tr-TR') : '-'}
+                </div>
+                <div style={{ fontSize: '0.9rem', color: 'var(--text-muted)', marginTop: '5px' }}>Tahmini Sıralama</div>
+              </div>
+
             </div>
             
-            <h2 style={{ fontSize: '1.5rem', marginTop: '20px', marginBottom: '10px' }}>Tahmini Başarı Sırası (Y-SAY)</h2>
-            <div style={{ fontSize: '2.5rem', fontWeight: '700', color: 'var(--primary)' }}>
-              {calculatedScore.siralama ? calculatedScore.siralama.toLocaleString('tr-TR') : '-'}
-            </div>
-
-            <p style={{ color: 'var(--text-muted)', marginTop: '20px' }}>
-              Bu puan ve sıralama ile "Bölüm Sıralamaları" sekmesinden size uygun üniversiteleri inceleyebilirsiniz.
+            <p style={{ textAlign: 'center', color: 'var(--text-muted)', marginTop: '30px' }}>
+              Bu puan ve sıralamalar ile "Bölüm Sıralamaları" sekmesinden size uygun üniversiteleri inceleyebilirsiniz.
             </p>
           </div>
         )}

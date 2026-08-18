@@ -1,26 +1,29 @@
 'use client';
 import { useState } from 'react';
 import styles from './ScoreCalculator.module.css';
-import osymData from '@/data/osym_dagilim.json';
+import osymData from '@/data/osym_dagilim_v2.json';
 
 // Lineer İnterpolasyon Algoritması
-function hesaplaSiralama(puan, alan) {
-  if (puan >= osymData[0].puan) return osymData[0][alan];
-  if (puan <= osymData[osymData.length - 1].puan) return osymData[osymData.length - 1][alan];
+function hesaplaSiralama(puan, alanKey) {
+  const alanData = osymData[alanKey];
+  if (!alanData || alanData.length === 0) return 0;
+  
+  if (puan >= alanData[0].puan) return alanData[0].siralama;
+  if (puan <= alanData[alanData.length - 1].puan) return alanData[alanData.length - 1].siralama;
 
-  for (let i = 0; i < osymData.length - 1; i++) {
-    let ust = osymData[i];
-    let alt = osymData[i+1];
+  for (let i = 0; i < alanData.length - 1; i++) {
+    let ust = alanData[i];
+    let alt = alanData[i+1];
 
     if (puan <= ust.puan && puan > alt.puan) {
       let puanFarki = ust.puan - alt.puan;         
-      let kisiFarki = alt[alan] - ust[alan];       
+      let kisiFarki = alt.siralama - ust.siralama;       
       let puanFazlasi = puan - alt.puan;           
       
       let oran = puanFazlasi / puanFarki;          
       let iyilesenKisi = oran * kisiFarki;         
       
-      let tahminiSira = alt[alan] - iyilesenKisi;  
+      let tahminiSira = alt.siralama - iyilesenKisi;  
       
       return Math.round(tahminiSira);
     }
@@ -38,7 +41,14 @@ export default function ScoreCalculator({ onCalculate }) {
     ayt_mat: 30,
     ayt_fizik: 10,
     ayt_kimya: 10,
-    ayt_biyoloji: 10
+    ayt_biyoloji: 10,
+    ayt_edebiyat: 20,
+    ayt_tarih1: 7,
+    ayt_cografya1: 5,
+    ayt_tarih2: 8,
+    ayt_cografya2: 9,
+    ayt_felsefe: 10,
+    ayt_din: 5
   });
 
   const handleChange = (e) => {
@@ -56,32 +66,44 @@ export default function ScoreCalculator({ onCalculate }) {
                         (netler.tyt_sosyal * 3.4) + (netler.tyt_fen * 3.4);
     let tyt_ham = 100 + tyt_net_puani;
 
-    // AYT Sayısal 
+    // AYT Sayısal, EA, SOZ
     let ayt_say_net_puani = (netler.ayt_mat * 3.0) + (netler.ayt_fizik * 2.85) + 
                             (netler.ayt_kimya * 3.07) + (netler.ayt_biyoloji * 3.07);
     
-    let say_ham = 100 + (tyt_net_puani * 0.4) + (ayt_say_net_puani * 2.0); 
+    let ayt_ea_net_puani = (netler.ayt_mat * 3.0) + (netler.ayt_edebiyat * 3.0) + 
+                           (netler.ayt_tarih1 * 2.8) + (netler.ayt_cografya1 * 3.33);
+
+    let ayt_soz_net_puani = (netler.ayt_edebiyat * 3.0) + (netler.ayt_tarih1 * 2.8) + (netler.ayt_cografya1 * 3.33) +
+                            (netler.ayt_tarih2 * 2.91) + (netler.ayt_cografya2 * 2.91) + 
+                            (netler.ayt_felsefe * 3.0) + (netler.ayt_din * 3.33);
+
+    let say_ham = 100 + (tyt_net_puani * 0.4) + ayt_say_net_puani;
+    let ea_ham = 100 + (tyt_net_puani * 0.4) + ayt_ea_net_puani;
+    let soz_ham = 100 + (tyt_net_puani * 0.4) + ayt_soz_net_puani;
 
     // 2. OBP Ekleme (Diploma * 5 * 0.12 = Diploma * 0.6)
     let obp_katkisi = diploma * 0.6; 
     
-    let tyt_yerlestirme = Math.max(115, Math.min(560, tyt_ham + obp_katkisi));
     let say_yerlestirme = Math.max(115, Math.min(560, say_ham + obp_katkisi));
+    let ea_yerlestirme = Math.max(115, Math.min(560, ea_ham + obp_katkisi));
+    let soz_yerlestirme = Math.max(115, Math.min(560, soz_ham + obp_katkisi));
 
     // 3. Sıralama Hesaplama
-    let siralamaTYT = hesaplaSiralama(tyt_yerlestirme, 'tyt');
-    let siralamaSAY = hesaplaSiralama(say_yerlestirme, 'say');
+    let siralamaSAY = hesaplaSiralama(say_yerlestirme, 'SAY');
+    let siralamaEA = hesaplaSiralama(ea_yerlestirme, 'EA');
+    let siralamaSOZ = hesaplaSiralama(soz_yerlestirme, 'SOZ');
 
     onCalculate({
-      puan: say_yerlestirme.toFixed(4),
-      siralama: siralamaSAY
+      SAY: { puan: say_yerlestirme.toFixed(4), siralama: siralamaSAY },
+      EA: { puan: ea_yerlestirme.toFixed(4), siralama: siralamaEA },
+      SOZ: { puan: soz_yerlestirme.toFixed(4), siralama: siralamaSOZ }
     });
   };
 
   return (
     <div className={`glass-panel ${styles.calculatorCard}`} style={{ maxWidth: '800px', margin: '0 auto' }}>
       <div className={styles.header}>
-        <h2 className="gradient-text">YKS Sayısal Sıralama Hesaplama</h2>
+        <h2 className="gradient-text">YKS Puan ve Sıralama Hesaplama</h2>
         <p>2026 ÖSYM yığınsal dağılım verileri ve lineer interpolasyon ile nokta atışı tahmin.</p>
       </div>
 
@@ -132,6 +154,42 @@ export default function ScoreCalculator({ onCalculate }) {
           <div className={styles.inputContainer}>
             <label className="input-label">Biyoloji</label>
             <input type="number" name="ayt_biyoloji" className="input-field" value={netler.ayt_biyoloji} onChange={handleChange} step="0.25" min="-3" max="13" />
+          </div>
+        </div>
+
+        <h3 style={{ color: 'var(--text-main)', marginBottom: '15px' }}>AYT Edebiyat - Sosyal 1 Netleri</h3>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '15px', marginBottom: '30px' }}>
+          <div className={styles.inputContainer}>
+            <label className="input-label">Edebiyat</label>
+            <input type="number" name="ayt_edebiyat" className="input-field" value={netler.ayt_edebiyat} onChange={handleChange} step="0.25" min="-6" max="24" />
+          </div>
+          <div className={styles.inputContainer}>
+            <label className="input-label">Tarih-1</label>
+            <input type="number" name="ayt_tarih1" className="input-field" value={netler.ayt_tarih1} onChange={handleChange} step="0.25" min="-2.5" max="10" />
+          </div>
+          <div className={styles.inputContainer}>
+            <label className="input-label">Coğrafya-1</label>
+            <input type="number" name="ayt_cografya1" className="input-field" value={netler.ayt_cografya1} onChange={handleChange} step="0.25" min="-1.5" max="6" />
+          </div>
+        </div>
+
+        <h3 style={{ color: 'var(--text-main)', marginBottom: '15px' }}>AYT Sosyal 2 Netleri</h3>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '15px', marginBottom: '30px' }}>
+          <div className={styles.inputContainer}>
+            <label className="input-label">Tarih-2</label>
+            <input type="number" name="ayt_tarih2" className="input-field" value={netler.ayt_tarih2} onChange={handleChange} step="0.25" min="-2.75" max="11" />
+          </div>
+          <div className={styles.inputContainer}>
+            <label className="input-label">Coğrafya-2</label>
+            <input type="number" name="ayt_cografya2" className="input-field" value={netler.ayt_cografya2} onChange={handleChange} step="0.25" min="-2.75" max="11" />
+          </div>
+          <div className={styles.inputContainer}>
+            <label className="input-label">Felsefe Grubu</label>
+            <input type="number" name="ayt_felsefe" className="input-field" value={netler.ayt_felsefe} onChange={handleChange} step="0.25" min="-3" max="12" />
+          </div>
+          <div className={styles.inputContainer}>
+            <label className="input-label">Din Kültürü</label>
+            <input type="number" name="ayt_din" className="input-field" value={netler.ayt_din} onChange={handleChange} step="0.25" min="-1.5" max="6" />
           </div>
         </div>
 

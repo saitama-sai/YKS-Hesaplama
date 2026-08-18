@@ -34,21 +34,21 @@ function hesaplaSiralama(puan, alanKey) {
 export default function ScoreCalculator({ onCalculate }) {
   const [diploma, setDiploma] = useState(85);
   const [netler, setNetler] = useState({
-    tyt_turkce: 30,
-    tyt_sosyal: 15,
-    tyt_mat: 25,
-    tyt_fen: 15,
-    ayt_mat: 30,
-    ayt_fizik: 10,
-    ayt_kimya: 10,
-    ayt_biyoloji: 10,
-    ayt_edebiyat: 20,
-    ayt_tarih1: 7,
-    ayt_cografya1: 5,
-    ayt_tarih2: 8,
-    ayt_cografya2: 9,
-    ayt_felsefe: 10,
-    ayt_din: 5
+    tyt_turkce: 0,
+    tyt_sosyal: 0,
+    tyt_mat: 0,
+    tyt_fen: 0,
+    ayt_mat: 0,
+    ayt_fizik: 0,
+    ayt_kimya: 0,
+    ayt_biyoloji: 0,
+    ayt_edebiyat: 0,
+    ayt_tarih1: 0,
+    ayt_cografya1: 0,
+    ayt_tarih2: 0,
+    ayt_cografya2: 0,
+    ayt_felsefe: 0,
+    ayt_din: 0
   });
 
   const handleChange = (e) => {

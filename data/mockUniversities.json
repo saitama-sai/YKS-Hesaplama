@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "Boğaziçi Üniversitesi",
+    "department": "Bilgisayar Mühendisliği",
+    "type": "Devlet",
+    "city": "İstanbul",
+    "baseScore": 540.23,
+    "ranking": 450,
+    "quota": 90,
+    "isSponsored": false
+  },
+  {
+    "id": 2,
+    "name": "Koç Üniversitesi",
+    "department": "Bilgisayar Mühendisliği",
+    "type": "Vakıf",
+    "city": "İstanbul",
+    "baseScore": 542.12,
+    "ranking": 320,
+    "quota": 15,
+    "isSponsored": true,
+    "sponsorLogo": "🎓"
+  },
+  {
+    "id": 3,
+    "name": "Orta Doğu Teknik Üniversitesi (ODTÜ)",
+    "department": "Bilgisayar Mühendisliği",
+    "type": "Devlet",
+    "city": "Ankara",
+    "baseScore": 535.45,
+    "ranking": 850,
+    "quota": 120,
+    "isSponsored": false
+  },
+  {
+    "id": 4,
+    "name": "İhsan Doğramacı Bilkent Üniversitesi",
+    "department": "Bilgisayar Mühendisliği",
+    "type": "Vakıf",
+    "city": "Ankara",
+    "baseScore": 538.88,
+    "ranking": 540,
+    "quota": 20,
+    "isSponsored": false
+  },
+  {
+    "id": 5,
+    "name": "İstanbul Teknik Üniversitesi (İTÜ)",
+    "department": "Bilgisayar Mühendisliği",
+    "type": "Devlet",
+    "city": "İstanbul",
+    "baseScore": 528.40,
+    "ranking": 1600,
+    "quota": 40,
+    "isSponsored": false
+  },
+  {
+    "id": 6,
+    "name": "TechCorp Academy",
+    "department": "Bilgisayar Mühendisliği",
+    "type": "Özel Akademi",
+    "city": "Uzaktan Eğitim",
+    "baseScore": 0,
+    "ranking": 0,
+    "quota": 100,
+    "isSponsored": true,
+    "sponsorLogo": "💻",
+    "customText": "Sınavsız, %100 İş Garantili Özel Eğitim"
+  },
+  {
+    "id": 7,
+    "name": "Hacettepe Üniversitesi",
+    "department": "Tıp",
+    "type": "Devlet",
+    "city": "Ankara",
+    "baseScore": 530.15,
+    "ranking": 1400,
+    "quota": 150,
+    "isSponsored": false
+  },
+  {
+    "id": 8,
+    "name": "Acıbadem Üniversitesi",
+    "department": "Tıp",
+    "type": "Vakıf",
+    "city": "İstanbul",
+    "baseScore": 529.80,
+    "ranking": 1450,
+    "quota": 10,
+    "isSponsored": true,
+    "sponsorLogo": "🏥"
+  },
+  {
+    "id": 9,
+    "name": "Ankara Üniversitesi",
+    "department": "Tıp",
+    "type": "Devlet",
+    "city": "Ankara",
+    "baseScore": 525.50,
+    "ranking": 2100,
+    "quota": 200,
+    "isSponsored": false
+  },
+  {
+    "id": 10,
+    "name": "Galatasaray Üniversitesi",
+    "department": "Hukuk",
+    "type": "Devlet",
+    "city": "İstanbul",
+    "baseScore": 510.20,
+    "ranking": 350,
+    "quota": 80,
+    "isSponsored": false
+  },
+  {
+    "id": 11,
+    "name": "Ankara Üniversitesi",
+    "department": "Hukuk",
+    "type": "Devlet",
+    "city": "Ankara",
+    "baseScore": 460.20,
+    "ranking": 4200,
+    "quota": 200,
+    "isSponsored": false
+  },
+  {
+    "id": 12,
+    "name": "İstanbul Üniversitesi",
+    "department": "Hukuk",
+    "type": "Devlet",
+    "city": "İstanbul",
+    "baseScore": 455.50,
+    "ranking": 5100,
+    "quota": 300,
+    "isSponsored": false
+  }
+]

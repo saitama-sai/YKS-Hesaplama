@@ -1,0 +1,150 @@
+.listContainer {
+  margin-top: 40px;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 24px;
+  color: var(--text-main);
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.uniCard {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.uniCard:hover {
+  transform: translateX(4px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  border-color: rgba(99, 102, 241, 0.4);
+}
+
+.logoPlaceholder {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+}
+
+.infoCol {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.uniName {
+  font-size: 1.15rem;
+  margin-bottom: 6px;
+  color: var(--text-main);
+  font-weight: 600;
+}
+
+.department {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.details {
+  display: flex;
+  gap: 8px;
+}
+
+.tag {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  border: 1px solid var(--border-color);
+}
+
+.scoreCol {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  border-left: 1px solid var(--border-color);
+  padding-left: 24px;
+}
+
+.statBox {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 120px;
+}
+
+.scoreLabel {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.scoreValue {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--text-main);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .uniCard {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  
+  .scoreCol {
+    width: 100%;
+    border-left: none;
+    border-top: 1px solid var(--border-color);
+    padding-left: 0;
+    padding-top: 16px;
+    justify-content: space-between;
+  }
+  
+  .logoPlaceholder {
+    width: 48px;
+    height: 48px;
+    font-size: 1.4rem;
+  }
+}
+
+.sponsorBtn {
+  margin-top: 16px;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+.emptyState {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 40px;
+  color: var(--text-muted);
+  font-size: 1.1rem;
+}

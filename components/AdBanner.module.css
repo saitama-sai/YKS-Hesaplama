@@ -1,0 +1,62 @@
+.adBanner {
+  margin: 40px 0;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, rgba(236, 72, 153, 0.05) 100%);
+  border: 1px solid rgba(236, 72, 153, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.adBanner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(to bottom, var(--primary), var(--secondary));
+}
+
+.adContent {
+  flex-grow: 1;
+}
+
+.adTag {
+  display: inline-block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: var(--secondary);
+  margin-bottom: 8px;
+}
+
+.adContent h3 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  color: var(--text-main);
+}
+
+.adContent p {
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+.adBtn {
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .adBanner {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .adBtn {
+    width: 100%;
+  }
+}

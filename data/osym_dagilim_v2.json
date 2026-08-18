@@ -1,0 +1,5041 @@
+{
+  "SAY": [
+    {
+      "siralama": 1,
+      "puan": 560
+    },
+    {
+      "siralama": 7,
+      "puan": 559.697
+    },
+    {
+      "siralama": 30,
+      "puan": 555.15
+    },
+    {
+      "siralama": 62,
+      "puan": 552.857
+    },
+    {
+      "siralama": 137,
+      "puan": 550.545
+    },
+    {
+      "siralama": 154,
+      "puan": 550
+    },
+    {
+      "siralama": 384,
+      "puan": 546.214
+    },
+    {
+      "siralama": 491,
+      "puan": 545.005
+    },
+    {
+      "siralama": 519,
+      "puan": 544.753
+    },
+    {
+      "siralama": 729,
+      "puan": 542.969
+    },
+    {
+      "siralama": 778,
+      "puan": 542.661
+    },
+    {
+      "siralama": 965,
+      "puan": 541.38
+    },
+    {
+      "siralama": 1231,
+      "puan": 539.691
+    },
+    {
+      "siralama": 1367,
+      "puan": 538.95
+    },
+    {
+      "siralama": 1415,
+      "puan": 538.701
+    },
+    {
+      "siralama": 1587,
+      "puan": 537.81
+    },
+    {
+      "siralama": 2069,
+      "puan": 535.361
+    },
+    {
+      "siralama": 2419,
+      "puan": 534.043
+    },
+    {
+      "siralama": 2505,
+      "puan": 533.676
+    },
+    {
+      "siralama": 2591,
+      "puan": 533.308
+    },
+    {
+      "siralama": 2648,
+      "puan": 533.063
+    },
+    {
+      "siralama": 2654,
+      "puan": 533.038
+    },
+    {
+      "siralama": 2674,
+      "puan": 532.958
+    },
+    {
+      "siralama": 2847,
+      "puan": 532.271
+    },
+    {
+      "siralama": 2983,
+      "puan": 531.795
+    },
+    {
+      "siralama": 2985,
+      "puan": 531.787
+    },
+    {
+      "siralama": 3392,
+      "puan": 530.371
+    },
+    {
+      "siralama": 3500,
+      "puan": 530
+    },
+    {
+      "siralama": 4139,
+      "puan": 527.966
+    },
+    {
+      "siralama": 4210,
+      "puan": 527.749
+    },
+    {
+      "siralama": 4341,
+      "puan": 527.376
+    },
+    {
+      "siralama": 4483,
+      "puan": 526.975
+    },
+    {
+      "siralama": 4554,
+      "puan": 526.769
+    },
+    {
+      "siralama": 4560,
+      "puan": 526.754
+    },
+    {
+      "siralama": 4812,
+      "puan": 526.045
+    },
+    {
+      "siralama": 4873,
+      "puan": 525.877
+    },
+    {
+      "siralama": 5108,
+      "puan": 525.203
+    },
+    {
+      "siralama": 5247,
+      "puan": 524.801
+    },
+    {
+      "siralama": 5581,
+      "puan": 524.017
+    },
+    {
+      "siralama": 5712,
+      "puan": 523.718
+    },
+    {
+      "siralama": 5733,
+      "puan": 523.671
+    },
+    {
+      "siralama": 5835,
+      "puan": 523.443
+    },
+    {
+      "siralama": 5846,
+      "puan": 523.417
+    },
+    {
+      "siralama": 6105,
+      "puan": 522.809
+    },
+    {
+      "siralama": 6657,
+      "puan": 521.512
+    },
+    {
+      "siralama": 6782,
+      "puan": 521.233
+    },
+    {
+      "siralama": 7011,
+      "puan": 520.753
+    },
+    {
+      "siralama": 7025,
+      "puan": 520.725
+    },
+    {
+      "siralama": 7054,
+      "puan": 520.664
+    },
+    {
+      "siralama": 7084,
+      "puan": 520.603
+    },
+    {
+      "siralama": 7239,
+      "puan": 520.294
+    },
+    {
+      "siralama": 7428,
+      "puan": 519.888
+    },
+    {
+      "siralama": 7658,
+      "puan": 519.413
+    },
+    {
+      "siralama": 7780,
+      "puan": 519.187
+    },
+    {
+      "siralama": 7829,
+      "puan": 519.09
+    },
+    {
+      "siralama": 7889,
+      "puan": 518.973
+    },
+    {
+      "siralama": 7910,
+      "puan": 518.932
+    },
+    {
+      "siralama": 8005,
+      "puan": 518.746
+    },
+    {
+      "siralama": 8013,
+      "puan": 518.73
+    },
+    {
+      "siralama": 8110,
+      "puan": 518.533
+    },
+    {
+      "siralama": 8182,
+      "puan": 518.39
+    },
+    {
+      "siralama": 8628,
+      "puan": 517.51
+    },
+    {
+      "siralama": 8701,
+      "puan": 517.368
+    },
+    {
+      "siralama": 8783,
+      "puan": 517.208
+    },
+    {
+      "siralama": 8840,
+      "puan": 517.097
+    },
+    {
+      "siralama": 8919,
+      "puan": 516.939
+    },
+    {
+      "siralama": 9101,
+      "puan": 516.575
+    },
+    {
+      "siralama": 9295,
+      "puan": 516.244
+    },
+    {
+      "siralama": 9491,
+      "puan": 515.88
+    },
+    {
+      "siralama": 9552,
+      "puan": 515.764
+    },
+    {
+      "siralama": 9584,
+      "puan": 515.703
+    },
+    {
+      "siralama": 9795,
+      "puan": 515.327
+    },
+    {
+      "siralama": 9856,
+      "puan": 515.205
+    },
+    {
+      "siralama": 9939,
+      "puan": 515.015
+    },
+    {
+      "siralama": 9958,
+      "puan": 514.976
+    },
+    {
+      "siralama": 9988,
+      "puan": 514.922
+    },
+    {
+      "siralama": 10257,
+      "puan": 514.429
+    },
+    {
+      "siralama": 10558,
+      "puan": 513.857
+    },
+    {
+      "siralama": 10599,
+      "puan": 513.774
+    },
+    {
+      "siralama": 10851,
+      "puan": 513.366
+    },
+    {
+      "siralama": 10854,
+      "puan": 513.361
+    },
+    {
+      "siralama": 11137,
+      "puan": 512.849
+    },
+    {
+      "siralama": 11180,
+      "puan": 512.784
+    },
+    {
+      "siralama": 11258,
+      "puan": 512.658
+    },
+    {
+      "siralama": 11684,
+      "puan": 511.914
+    },
+    {
+      "siralama": 11709,
+      "puan": 511.877
+    },
+    {
+      "siralama": 11786,
+      "puan": 511.761
+    },
+    {
+      "siralama": 11816,
+      "puan": 511.715
+    },
+    {
+      "siralama": 11980,
+      "puan": 511.456
+    },
+    {
+      "siralama": 12071,
+      "puan": 511.304
+    },
+    {
+      "siralama": 12080,
+      "puan": 511.289
+    },
+    {
+      "siralama": 12211,
+      "puan": 511.074
+    },
+    {
+      "siralama": 12459,
+      "puan": 510.701
+    },
+    {
+      "siralama": 12757,
+      "puan": 510.229
+    },
+    {
+      "siralama": 12887,
+      "puan": 510
+    },
+    {
+      "siralama": 12957,
+      "puan": 509.886
+    },
+    {
+      "siralama": 13468,
+      "puan": 509.095
+    },
+    {
+      "siralama": 13482,
+      "puan": 509.069
+    },
+    {
+      "siralama": 13543,
+      "puan": 508.974
+    },
+    {
+      "siralama": 13588,
+      "puan": 508.904
+    },
+    {
+      "siralama": 13612,
+      "puan": 508.867
+    },
+    {
+      "siralama": 13817,
+      "puan": 508.554
+    },
+    {
+      "siralama": 14152,
+      "puan": 508.051
+    },
+    {
+      "siralama": 14162,
+      "puan": 508.035
+    },
+    {
+      "siralama": 14225,
+      "puan": 507.938
+    },
+    {
+      "siralama": 14285,
+      "puan": 507.84
+    },
+    {
+      "siralama": 14305,
+      "puan": 507.811
+    },
+    {
+      "siralama": 14445,
+      "puan": 507.602
+    },
+    {
+      "siralama": 14451,
+      "puan": 507.593
+    },
+    {
+      "siralama": 14467,
+      "puan": 507.569
+    },
+    {
+      "siralama": 14530,
+      "puan": 507.471
+    },
+    {
+      "siralama": 14576,
+      "puan": 507.398
+    },
+    {
+      "siralama": 14677,
+      "puan": 507.242
+    },
+    {
+      "siralama": 14957,
+      "puan": 506.821
+    },
+    {
+      "siralama": 15033,
+      "puan": 506.709
+    },
+    {
+      "siralama": 15076,
+      "puan": 506.656
+    },
+    {
+      "siralama": 15117,
+      "puan": 506.605
+    },
+    {
+      "siralama": 15148,
+      "puan": 506.565
+    },
+    {
+      "siralama": 15243,
+      "puan": 506.435
+    },
+    {
+      "siralama": 15468,
+      "puan": 506.1
+    },
+    {
+      "siralama": 15474,
+      "puan": 506.09
+    },
+    {
+      "siralama": 15478,
+      "puan": 506.084
+    },
+    {
+      "siralama": 15955,
+      "puan": 505.35
+    },
+    {
+      "siralama": 16005,
+      "puan": 505.275
+    },
+    {
+      "siralama": 16027,
+      "puan": 505.243
+    },
+    {
+      "siralama": 16299,
+      "puan": 504.798
+    },
+    {
+      "siralama": 16301,
+      "puan": 504.794
+    },
+    {
+      "siralama": 16378,
+      "puan": 504.662
+    },
+    {
+      "siralama": 16577,
+      "puan": 504.356
+    },
+    {
+      "siralama": 16589,
+      "puan": 504.339
+    },
+    {
+      "siralama": 16703,
+      "puan": 504.166
+    },
+    {
+      "siralama": 16871,
+      "puan": 503.913
+    },
+    {
+      "siralama": 16898,
+      "puan": 503.871
+    },
+    {
+      "siralama": 16949,
+      "puan": 503.794
+    },
+    {
+      "siralama": 16986,
+      "puan": 503.738
+    },
+    {
+      "siralama": 17048,
+      "puan": 503.644
+    },
+    {
+      "siralama": 17103,
+      "puan": 503.569
+    },
+    {
+      "siralama": 17123,
+      "puan": 503.541
+    },
+    {
+      "siralama": 17533,
+      "puan": 502.954
+    },
+    {
+      "siralama": 17589,
+      "puan": 502.876
+    },
+    {
+      "siralama": 17788,
+      "puan": 502.568
+    },
+    {
+      "siralama": 18080,
+      "puan": 502.182
+    },
+    {
+      "siralama": 18128,
+      "puan": 502.115
+    },
+    {
+      "siralama": 18219,
+      "puan": 501.991
+    },
+    {
+      "siralama": 18231,
+      "puan": 501.976
+    },
+    {
+      "siralama": 18523,
+      "puan": 501.575
+    },
+    {
+      "siralama": 18582,
+      "puan": 501.496
+    },
+    {
+      "siralama": 18703,
+      "puan": 501.329
+    },
+    {
+      "siralama": 18776,
+      "puan": 501.225
+    },
+    {
+      "siralama": 18827,
+      "puan": 501.15
+    },
+    {
+      "siralama": 18837,
+      "puan": 501.136
+    },
+    {
+      "siralama": 19011,
+      "puan": 500.893
+    },
+    {
+      "siralama": 19051,
+      "puan": 500.839
+    },
+    {
+      "siralama": 19053,
+      "puan": 500.835
+    },
+    {
+      "siralama": 19070,
+      "puan": 500.812
+    },
+    {
+      "siralama": 19071,
+      "puan": 500.81
+    },
+    {
+      "siralama": 19385,
+      "puan": 500.376
+    },
+    {
+      "siralama": 19504,
+      "puan": 500.224
+    },
+    {
+      "siralama": 19660,
+      "puan": 500.018
+    },
+    {
+      "siralama": 19745,
+      "puan": 499.905
+    },
+    {
+      "siralama": 19800,
+      "puan": 499.831
+    },
+    {
+      "siralama": 19845,
+      "puan": 499.771
+    },
+    {
+      "siralama": 19859,
+      "puan": 499.753
+    },
+    {
+      "siralama": 20003,
+      "puan": 499.562
+    },
+    {
+      "siralama": 20158,
+      "puan": 499.356
+    },
+    {
+      "siralama": 20327,
+      "puan": 499.115
+    },
+    {
+      "siralama": 20353,
+      "puan": 499.076
+    },
+    {
+      "siralama": 20431,
+      "puan": 498.961
+    },
+    {
+      "siralama": 20555,
+      "puan": 498.777
+    },
+    {
+      "siralama": 20753,
+      "puan": 498.528
+    },
+    {
+      "siralama": 20875,
+      "puan": 498.388
+    },
+    {
+      "siralama": 21001,
+      "puan": 498.154
+    },
+    {
+      "siralama": 21095,
+      "puan": 498.064
+    },
+    {
+      "siralama": 21224,
+      "puan": 497.931
+    },
+    {
+      "siralama": 21282,
+      "puan": 497.83
+    },
+    {
+      "siralama": 21294,
+      "puan": 497.809
+    },
+    {
+      "siralama": 21331,
+      "puan": 497.745
+    },
+    {
+      "siralama": 21423,
+      "puan": 497.584
+    },
+    {
+      "siralama": 21584,
+      "puan": 497.373
+    },
+    {
+      "siralama": 21627,
+      "puan": 497.31
+    },
+    {
+      "siralama": 21679,
+      "puan": 497.245
+    },
+    {
+      "siralama": 21776,
+      "puan": 497.126
+    },
+    {
+      "siralama": 22121,
+      "puan": 496.7
+    },
+    {
+      "siralama": 22198,
+      "puan": 496.609
+    },
+    {
+      "siralama": 22348,
+      "puan": 496.432
+    },
+    {
+      "siralama": 22881,
+      "puan": 495.746
+    },
+    {
+      "siralama": 22947,
+      "puan": 495.651
+    },
+    {
+      "siralama": 22966,
+      "puan": 495.623
+    },
+    {
+      "siralama": 23191,
+      "puan": 495.334
+    },
+    {
+      "siralama": 23508,
+      "puan": 494.939
+    },
+    {
+      "siralama": 24111,
+      "puan": 494.178
+    },
+    {
+      "siralama": 24121,
+      "puan": 494.164
+    },
+    {
+      "siralama": 24211,
+      "puan": 494.044
+    },
+    {
+      "siralama": 24825,
+      "puan": 493.218
+    },
+    {
+      "siralama": 26065,
+      "puan": 491.654
+    },
+    {
+      "siralama": 26217,
+      "puan": 491.471
+    },
+    {
+      "siralama": 26280,
+      "puan": 491.395
+    },
+    {
+      "siralama": 26295,
+      "puan": 491.377
+    },
+    {
+      "siralama": 26432,
+      "puan": 491.215
+    },
+    {
+      "siralama": 26472,
+      "puan": 491.168
+    },
+    {
+      "siralama": 26681,
+      "puan": 490.923
+    },
+    {
+      "siralama": 27304,
+      "puan": 490.122
+    },
+    {
+      "siralama": 27402,
+      "puan": 490
+    },
+    {
+      "siralama": 27407,
+      "puan": 489.996
+    },
+    {
+      "siralama": 27675,
+      "puan": 489.702
+    },
+    {
+      "siralama": 27692,
+      "puan": 489.682
+    },
+    {
+      "siralama": 27794,
+      "puan": 489.565
+    },
+    {
+      "siralama": 28040,
+      "puan": 489.265
+    },
+    {
+      "siralama": 28099,
+      "puan": 489.192
+    },
+    {
+      "siralama": 28348,
+      "puan": 488.888
+    },
+    {
+      "siralama": 28738,
+      "puan": 488.455
+    },
+    {
+      "siralama": 29589,
+      "puan": 487.462
+    },
+    {
+      "siralama": 29714,
+      "puan": 487.305
+    },
+    {
+      "siralama": 30450,
+      "puan": 486.412
+    },
+    {
+      "siralama": 30622,
+      "puan": 486.201
+    },
+    {
+      "siralama": 31084,
+      "puan": 485.658
+    },
+    {
+      "siralama": 31196,
+      "puan": 485.52
+    },
+    {
+      "siralama": 31212,
+      "puan": 485.501
+    },
+    {
+      "siralama": 31234,
+      "puan": 485.474
+    },
+    {
+      "siralama": 31593,
+      "puan": 485.047
+    },
+    {
+      "siralama": 31604,
+      "puan": 485.034
+    },
+    {
+      "siralama": 32158,
+      "puan": 484.402
+    },
+    {
+      "siralama": 32286,
+      "puan": 484.256
+    },
+    {
+      "siralama": 32611,
+      "puan": 483.886
+    },
+    {
+      "siralama": 32684,
+      "puan": 483.793
+    },
+    {
+      "siralama": 32897,
+      "puan": 483.521
+    },
+    {
+      "siralama": 33199,
+      "puan": 483.181
+    },
+    {
+      "siralama": 33255,
+      "puan": 483.108
+    },
+    {
+      "siralama": 33302,
+      "puan": 483.045
+    },
+    {
+      "siralama": 33658,
+      "puan": 482.609
+    },
+    {
+      "siralama": 34213,
+      "puan": 481.952
+    },
+    {
+      "siralama": 34467,
+      "puan": 481.651
+    },
+    {
+      "siralama": 34863,
+      "puan": 481.204
+    },
+    {
+      "siralama": 34903,
+      "puan": 481.16
+    },
+    {
+      "siralama": 35521,
+      "puan": 480.484
+    },
+    {
+      "siralama": 35619,
+      "puan": 480.377
+    },
+    {
+      "siralama": 35951,
+      "puan": 480.014
+    },
+    {
+      "siralama": 36083,
+      "puan": 479.862
+    },
+    {
+      "siralama": 36424,
+      "puan": 479.447
+    },
+    {
+      "siralama": 36440,
+      "puan": 479.427
+    },
+    {
+      "siralama": 36473,
+      "puan": 479.387
+    },
+    {
+      "siralama": 36641,
+      "puan": 479.209
+    },
+    {
+      "siralama": 36688,
+      "puan": 479.161
+    },
+    {
+      "siralama": 36715,
+      "puan": 479.133
+    },
+    {
+      "siralama": 36772,
+      "puan": 479.075
+    },
+    {
+      "siralama": 37040,
+      "puan": 478.786
+    },
+    {
+      "siralama": 37289,
+      "puan": 478.489
+    },
+    {
+      "siralama": 37411,
+      "puan": 478.351
+    },
+    {
+      "siralama": 37447,
+      "puan": 478.312
+    },
+    {
+      "siralama": 37572,
+      "puan": 478.175
+    },
+    {
+      "siralama": 37886,
+      "puan": 477.829
+    },
+    {
+      "siralama": 38033,
+      "puan": 477.668
+    },
+    {
+      "siralama": 38035,
+      "puan": 477.666
+    },
+    {
+      "siralama": 38036,
+      "puan": 477.664
+    },
+    {
+      "siralama": 38313,
+      "puan": 477.338
+    },
+    {
+      "siralama": 38806,
+      "puan": 476.767
+    },
+    {
+      "siralama": 38821,
+      "puan": 476.75
+    },
+    {
+      "siralama": 39071,
+      "puan": 476.465
+    },
+    {
+      "siralama": 39166,
+      "puan": 476.356
+    },
+    {
+      "siralama": 39750,
+      "puan": 475.699
+    },
+    {
+      "siralama": 39758,
+      "puan": 475.69
+    },
+    {
+      "siralama": 39888,
+      "puan": 475.549
+    },
+    {
+      "siralama": 40337,
+      "puan": 475.058
+    },
+    {
+      "siralama": 40966,
+      "puan": 474.379
+    },
+    {
+      "siralama": 41392,
+      "puan": 473.902
+    },
+    {
+      "siralama": 41906,
+      "puan": 473.293
+    },
+    {
+      "siralama": 42017,
+      "puan": 473.172
+    },
+    {
+      "siralama": 42223,
+      "puan": 472.948
+    },
+    {
+      "siralama": 42311,
+      "puan": 472.851
+    },
+    {
+      "siralama": 42544,
+      "puan": 472.586
+    },
+    {
+      "siralama": 42686,
+      "puan": 472.426
+    },
+    {
+      "siralama": 42770,
+      "puan": 472.331
+    },
+    {
+      "siralama": 42888,
+      "puan": 472.197
+    },
+    {
+      "siralama": 43114,
+      "puan": 471.969
+    },
+    {
+      "siralama": 43135,
+      "puan": 471.948
+    },
+    {
+      "siralama": 43562,
+      "puan": 471.51
+    },
+    {
+      "siralama": 43921,
+      "puan": 471.112
+    },
+    {
+      "siralama": 44140,
+      "puan": 470.867
+    },
+    {
+      "siralama": 44371,
+      "puan": 470.61
+    },
+    {
+      "siralama": 44395,
+      "puan": 470.584
+    },
+    {
+      "siralama": 44581,
+      "puan": 470.377
+    },
+    {
+      "siralama": 44919,
+      "puan": 470
+    },
+    {
+      "siralama": 45579,
+      "puan": 469.277
+    },
+    {
+      "siralama": 45669,
+      "puan": 469.179
+    },
+    {
+      "siralama": 46005,
+      "puan": 468.811
+    },
+    {
+      "siralama": 46313,
+      "puan": 468.473
+    },
+    {
+      "siralama": 47234,
+      "puan": 467.463
+    },
+    {
+      "siralama": 47400,
+      "puan": 467.281
+    },
+    {
+      "siralama": 47498,
+      "puan": 467.174
+    },
+    {
+      "siralama": 47552,
+      "puan": 467.114
+    },
+    {
+      "siralama": 48348,
+      "puan": 466.246
+    },
+    {
+      "siralama": 48691,
+      "puan": 465.891
+    },
+    {
+      "siralama": 48768,
+      "puan": 465.811
+    },
+    {
+      "siralama": 49113,
+      "puan": 465.445
+    },
+    {
+      "siralama": 49628,
+      "puan": 464.865
+    },
+    {
+      "siralama": 49804,
+      "puan": 464.672
+    },
+    {
+      "siralama": 49977,
+      "puan": 464.488
+    },
+    {
+      "siralama": 50140,
+      "puan": 464.303
+    },
+    {
+      "siralama": 51455,
+      "puan": 462.895
+    },
+    {
+      "siralama": 52071,
+      "puan": 462.286
+    },
+    {
+      "siralama": 52074,
+      "puan": 462.283
+    },
+    {
+      "siralama": 52931,
+      "puan": 461.386
+    },
+    {
+      "siralama": 53217,
+      "puan": 461.087
+    },
+    {
+      "siralama": 53302,
+      "puan": 460.998
+    },
+    {
+      "siralama": 53499,
+      "puan": 460.791
+    },
+    {
+      "siralama": 53870,
+      "puan": 460.394
+    },
+    {
+      "siralama": 53957,
+      "puan": 460.3
+    },
+    {
+      "siralama": 54992,
+      "puan": 459.188
+    },
+    {
+      "siralama": 55183,
+      "puan": 458.982
+    },
+    {
+      "siralama": 55207,
+      "puan": 458.957
+    },
+    {
+      "siralama": 56418,
+      "puan": 457.655
+    },
+    {
+      "siralama": 57873,
+      "puan": 456.074
+    },
+    {
+      "siralama": 57884,
+      "puan": 456.061
+    },
+    {
+      "siralama": 58070,
+      "puan": 455.872
+    },
+    {
+      "siralama": 58479,
+      "puan": 455.46
+    },
+    {
+      "siralama": 58565,
+      "puan": 455.376
+    },
+    {
+      "siralama": 60426,
+      "puan": 453.434
+    },
+    {
+      "siralama": 60648,
+      "puan": 453.206
+    },
+    {
+      "siralama": 61303,
+      "puan": 452.536
+    },
+    {
+      "siralama": 61423,
+      "puan": 452.432
+    },
+    {
+      "siralama": 61810,
+      "puan": 452.023
+    },
+    {
+      "siralama": 62180,
+      "puan": 451.642
+    },
+    {
+      "siralama": 63042,
+      "puan": 450.668
+    },
+    {
+      "siralama": 63448,
+      "puan": 450.243
+    },
+    {
+      "siralama": 63669,
+      "puan": 450
+    },
+    {
+      "siralama": 64682,
+      "puan": 448.972
+    },
+    {
+      "siralama": 66001,
+      "puan": 447.613
+    },
+    {
+      "siralama": 66128,
+      "puan": 447.48
+    },
+    {
+      "siralama": 66566,
+      "puan": 447.019
+    },
+    {
+      "siralama": 66607,
+      "puan": 446.976
+    },
+    {
+      "siralama": 66621,
+      "puan": 446.962
+    },
+    {
+      "siralama": 66750,
+      "puan": 446.825
+    },
+    {
+      "siralama": 68140,
+      "puan": 445.386
+    },
+    {
+      "siralama": 69009,
+      "puan": 444.502
+    },
+    {
+      "siralama": 69125,
+      "puan": 444.385
+    },
+    {
+      "siralama": 69653,
+      "puan": 443.846
+    },
+    {
+      "siralama": 69743,
+      "puan": 443.751
+    },
+    {
+      "siralama": 69885,
+      "puan": 443.6
+    },
+    {
+      "siralama": 70224,
+      "puan": 443.227
+    },
+    {
+      "siralama": 70640,
+      "puan": 442.783
+    },
+    {
+      "siralama": 70835,
+      "puan": 442.577
+    },
+    {
+      "siralama": 71291,
+      "puan": 442.094
+    },
+    {
+      "siralama": 71466,
+      "puan": 441.908
+    },
+    {
+      "siralama": 71832,
+      "puan": 441.522
+    },
+    {
+      "siralama": 72106,
+      "puan": 441.249
+    },
+    {
+      "siralama": 73107,
+      "puan": 440.237
+    },
+    {
+      "siralama": 74084,
+      "puan": 439.283
+    },
+    {
+      "siralama": 75069,
+      "puan": 438.314
+    },
+    {
+      "siralama": 75145,
+      "puan": 438.239
+    },
+    {
+      "siralama": 75622,
+      "puan": 437.77
+    },
+    {
+      "siralama": 75951,
+      "puan": 437.446
+    },
+    {
+      "siralama": 76623,
+      "puan": 436.785
+    },
+    {
+      "siralama": 76734,
+      "puan": 436.676
+    },
+    {
+      "siralama": 77422,
+      "puan": 435.998
+    },
+    {
+      "siralama": 77857,
+      "puan": 435.56
+    },
+    {
+      "siralama": 78434,
+      "puan": 434.99
+    },
+    {
+      "siralama": 79162,
+      "puan": 434.272
+    },
+    {
+      "siralama": 79164,
+      "puan": 434.27
+    },
+    {
+      "siralama": 79311,
+      "puan": 434.125
+    },
+    {
+      "siralama": 79478,
+      "puan": 433.962
+    },
+    {
+      "siralama": 79486,
+      "puan": 433.953
+    },
+    {
+      "siralama": 80707,
+      "puan": 432.754
+    },
+    {
+      "siralama": 80715,
+      "puan": 432.747
+    },
+    {
+      "siralama": 81010,
+      "puan": 432.456
+    },
+    {
+      "siralama": 81403,
+      "puan": 432.071
+    },
+    {
+      "siralama": 81568,
+      "puan": 431.908
+    },
+    {
+      "siralama": 81593,
+      "puan": 431.884
+    },
+    {
+      "siralama": 81799,
+      "puan": 431.682
+    },
+    {
+      "siralama": 81934,
+      "puan": 431.55
+    },
+    {
+      "siralama": 82229,
+      "puan": 431.259
+    },
+    {
+      "siralama": 82793,
+      "puan": 430.701
+    },
+    {
+      "siralama": 83311,
+      "puan": 430.186
+    },
+    {
+      "siralama": 83511,
+      "puan": 430
+    },
+    {
+      "siralama": 84638,
+      "puan": 428.934
+    },
+    {
+      "siralama": 84695,
+      "puan": 428.879
+    },
+    {
+      "siralama": 85767,
+      "puan": 427.816
+    },
+    {
+      "siralama": 87050,
+      "puan": 426.564
+    },
+    {
+      "siralama": 87698,
+      "puan": 425.944
+    },
+    {
+      "siralama": 88182,
+      "puan": 425.48
+    },
+    {
+      "siralama": 88281,
+      "puan": 425.385
+    },
+    {
+      "siralama": 88438,
+      "puan": 425.235
+    },
+    {
+      "siralama": 89744,
+      "puan": 423.915
+    },
+    {
+      "siralama": 90135,
+      "puan": 423.55
+    },
+    {
+      "siralama": 90148,
+      "puan": 423.539
+    },
+    {
+      "siralama": 91618,
+      "puan": 422.233
+    },
+    {
+      "siralama": 92136,
+      "puan": 421.778
+    },
+    {
+      "siralama": 93909,
+      "puan": 420.171
+    },
+    {
+      "siralama": 95497,
+      "puan": 418.754
+    },
+    {
+      "siralama": 96025,
+      "puan": 418.284
+    },
+    {
+      "siralama": 96464,
+      "puan": 417.879
+    },
+    {
+      "siralama": 96941,
+      "puan": 417.429
+    },
+    {
+      "siralama": 97370,
+      "puan": 417.023
+    },
+    {
+      "siralama": 98339,
+      "puan": 416.14
+    },
+    {
+      "siralama": 98985,
+      "puan": 415.508
+    },
+    {
+      "siralama": 99230,
+      "puan": 415.281
+    },
+    {
+      "siralama": 101730,
+      "puan": 413.043
+    },
+    {
+      "siralama": 102486,
+      "puan": 412.39
+    },
+    {
+      "siralama": 103048,
+      "puan": 411.914
+    },
+    {
+      "siralama": 103703,
+      "puan": 411.312
+    },
+    {
+      "siralama": 104462,
+      "puan": 410.597
+    },
+    {
+      "siralama": 105112,
+      "puan": 410
+    },
+    {
+      "siralama": 105183,
+      "puan": 409.935
+    },
+    {
+      "siralama": 108869,
+      "puan": 406.711
+    },
+    {
+      "siralama": 109316,
+      "puan": 406.337
+    },
+    {
+      "siralama": 109322,
+      "puan": 406.332
+    },
+    {
+      "siralama": 109947,
+      "puan": 405.795
+    },
+    {
+      "siralama": 110127,
+      "puan": 405.639
+    },
+    {
+      "siralama": 110964,
+      "puan": 404.916
+    },
+    {
+      "siralama": 111485,
+      "puan": 404.467
+    },
+    {
+      "siralama": 111857,
+      "puan": 404.141
+    },
+    {
+      "siralama": 112399,
+      "puan": 403.685
+    },
+    {
+      "siralama": 112582,
+      "puan": 403.538
+    },
+    {
+      "siralama": 112628,
+      "puan": 403.501
+    },
+    {
+      "siralama": 113144,
+      "puan": 403.083
+    },
+    {
+      "siralama": 113699,
+      "puan": 402.634
+    },
+    {
+      "siralama": 114280,
+      "puan": 402.154
+    },
+    {
+      "siralama": 114923,
+      "puan": 401.648
+    },
+    {
+      "siralama": 115338,
+      "puan": 401.311
+    },
+    {
+      "siralama": 115948,
+      "puan": 400.812
+    },
+    {
+      "siralama": 116098,
+      "puan": 400.687
+    },
+    {
+      "siralama": 116133,
+      "puan": 400.658
+    },
+    {
+      "siralama": 116919,
+      "puan": 400.008
+    },
+    {
+      "siralama": 117378,
+      "puan": 399.637
+    },
+    {
+      "siralama": 120414,
+      "puan": 397.224
+    },
+    {
+      "siralama": 121062,
+      "puan": 396.707
+    },
+    {
+      "siralama": 121079,
+      "puan": 396.693
+    },
+    {
+      "siralama": 121182,
+      "puan": 396.61
+    },
+    {
+      "siralama": 122082,
+      "puan": 395.877
+    },
+    {
+      "siralama": 122703,
+      "puan": 395.374
+    },
+    {
+      "siralama": 122888,
+      "puan": 395.224
+    },
+    {
+      "siralama": 123385,
+      "puan": 394.823
+    },
+    {
+      "siralama": 123689,
+      "puan": 394.578
+    },
+    {
+      "siralama": 125133,
+      "puan": 393.448
+    },
+    {
+      "siralama": 125316,
+      "puan": 393.298
+    },
+    {
+      "siralama": 125358,
+      "puan": 393.263
+    },
+    {
+      "siralama": 125981,
+      "puan": 392.753
+    },
+    {
+      "siralama": 128156,
+      "puan": 391.016
+    },
+    {
+      "siralama": 128705,
+      "puan": 390.596
+    },
+    {
+      "siralama": 129485,
+      "puan": 390
+    },
+    {
+      "siralama": 129669,
+      "puan": 389.863
+    },
+    {
+      "siralama": 129923,
+      "puan": 389.671
+    },
+    {
+      "siralama": 130142,
+      "puan": 389.505
+    },
+    {
+      "siralama": 130290,
+      "puan": 389.393
+    },
+    {
+      "siralama": 131201,
+      "puan": 388.702
+    },
+    {
+      "siralama": 132796,
+      "puan": 387.423
+    },
+    {
+      "siralama": 132995,
+      "puan": 387.265
+    },
+    {
+      "siralama": 134101,
+      "puan": 386.455
+    },
+    {
+      "siralama": 134917,
+      "puan": 385.862
+    },
+    {
+      "siralama": 135263,
+      "puan": 385.596
+    },
+    {
+      "siralama": 135506,
+      "puan": 385.41
+    },
+    {
+      "siralama": 135692,
+      "puan": 385.267
+    },
+    {
+      "siralama": 139357,
+      "puan": 382.539
+    },
+    {
+      "siralama": 139722,
+      "puan": 382.269
+    },
+    {
+      "siralama": 140463,
+      "puan": 381.72
+    },
+    {
+      "siralama": 141504,
+      "puan": 380.955
+    },
+    {
+      "siralama": 141718,
+      "puan": 380.804
+    },
+    {
+      "siralama": 142473,
+      "puan": 380.272
+    },
+    {
+      "siralama": 143152,
+      "puan": 379.795
+    },
+    {
+      "siralama": 143244,
+      "puan": 379.731
+    },
+    {
+      "siralama": 143278,
+      "puan": 379.707
+    },
+    {
+      "siralama": 144327,
+      "puan": 378.976
+    },
+    {
+      "siralama": 146174,
+      "puan": 377.683
+    },
+    {
+      "siralama": 146429,
+      "puan": 377.5
+    },
+    {
+      "siralama": 146531,
+      "puan": 377.425
+    },
+    {
+      "siralama": 147386,
+      "puan": 376.811
+    },
+    {
+      "siralama": 148055,
+      "puan": 376.372
+    },
+    {
+      "siralama": 148228,
+      "puan": 376.26
+    },
+    {
+      "siralama": 148251,
+      "puan": 376.245
+    },
+    {
+      "siralama": 149645,
+      "puan": 375.324
+    },
+    {
+      "siralama": 149857,
+      "puan": 375.181
+    },
+    {
+      "siralama": 150134,
+      "puan": 374.995
+    },
+    {
+      "siralama": 150547,
+      "puan": 374.717
+    },
+    {
+      "siralama": 151606,
+      "puan": 374.004
+    },
+    {
+      "siralama": 151623,
+      "puan": 373.993
+    },
+    {
+      "siralama": 153516,
+      "puan": 372.73
+    },
+    {
+      "siralama": 155337,
+      "puan": 371.544
+    },
+    {
+      "siralama": 156062,
+      "puan": 371.084
+    },
+    {
+      "siralama": 156277,
+      "puan": 370.947
+    },
+    {
+      "siralama": 156492,
+      "puan": 370.811
+    },
+    {
+      "siralama": 157053,
+      "puan": 370.457
+    },
+    {
+      "siralama": 157236,
+      "puan": 370.341
+    },
+    {
+      "siralama": 157778,
+      "puan": 370
+    },
+    {
+      "siralama": 159931,
+      "puan": 368.575
+    },
+    {
+      "siralama": 159998,
+      "puan": 368.532
+    },
+    {
+      "siralama": 160209,
+      "puan": 368.394
+    },
+    {
+      "siralama": 162896,
+      "puan": 366.645
+    },
+    {
+      "siralama": 164364,
+      "puan": 365.689
+    },
+    {
+      "siralama": 166095,
+      "puan": 364.599
+    },
+    {
+      "siralama": 168818,
+      "puan": 362.908
+    },
+    {
+      "siralama": 168946,
+      "puan": 362.828
+    },
+    {
+      "siralama": 169058,
+      "puan": 362.758
+    },
+    {
+      "siralama": 169663,
+      "puan": 362.393
+    },
+    {
+      "siralama": 170222,
+      "puan": 362.063
+    },
+    {
+      "siralama": 171421,
+      "puan": 361.303
+    },
+    {
+      "siralama": 171661,
+      "puan": 361.149
+    },
+    {
+      "siralama": 172197,
+      "puan": 360.807
+    },
+    {
+      "siralama": 172365,
+      "puan": 360.699
+    },
+    {
+      "siralama": 172674,
+      "puan": 360.503
+    },
+    {
+      "siralama": 172967,
+      "puan": 360.33
+    },
+    {
+      "siralama": 174474,
+      "puan": 359.443
+    },
+    {
+      "siralama": 177938,
+      "puan": 357.388
+    },
+    {
+      "siralama": 178009,
+      "puan": 357.347
+    },
+    {
+      "siralama": 180556,
+      "puan": 355.876
+    },
+    {
+      "siralama": 181769,
+      "puan": 355.186
+    },
+    {
+      "siralama": 181954,
+      "puan": 355.081
+    },
+    {
+      "siralama": 182596,
+      "puan": 354.723
+    },
+    {
+      "siralama": 183398,
+      "puan": 354.261
+    },
+    {
+      "siralama": 183906,
+      "puan": 353.973
+    },
+    {
+      "siralama": 183940,
+      "puan": 353.953
+    },
+    {
+      "siralama": 184536,
+      "puan": 353.615
+    },
+    {
+      "siralama": 184667,
+      "puan": 353.541
+    },
+    {
+      "siralama": 186468,
+      "puan": 352.547
+    },
+    {
+      "siralama": 186915,
+      "puan": 352.303
+    },
+    {
+      "siralama": 188274,
+      "puan": 351.579
+    },
+    {
+      "siralama": 188356,
+      "puan": 351.536
+    },
+    {
+      "siralama": 190433,
+      "puan": 350.441
+    },
+    {
+      "siralama": 190712,
+      "puan": 350.29
+    },
+    {
+      "siralama": 191199,
+      "puan": 350.026
+    },
+    {
+      "siralama": 191247,
+      "puan": 350
+    },
+    {
+      "siralama": 191852,
+      "puan": 349.679
+    },
+    {
+      "siralama": 196414,
+      "puan": 347.242
+    },
+    {
+      "siralama": 198463,
+      "puan": 346.158
+    },
+    {
+      "siralama": 199031,
+      "puan": 345.857
+    },
+    {
+      "siralama": 200119,
+      "puan": 345.282
+    },
+    {
+      "siralama": 202407,
+      "puan": 344.104
+    },
+    {
+      "siralama": 203190,
+      "puan": 343.724
+    },
+    {
+      "siralama": 205137,
+      "puan": 342.765
+    },
+    {
+      "siralama": 205150,
+      "puan": 342.759
+    },
+    {
+      "siralama": 208518,
+      "puan": 341.102
+    },
+    {
+      "siralama": 208780,
+      "puan": 340.973
+    },
+    {
+      "siralama": 208845,
+      "puan": 340.941
+    },
+    {
+      "siralama": 209046,
+      "puan": 340.843
+    },
+    {
+      "siralama": 210297,
+      "puan": 340.239
+    },
+    {
+      "siralama": 211716,
+      "puan": 339.525
+    },
+    {
+      "siralama": 212067,
+      "puan": 339.342
+    },
+    {
+      "siralama": 212392,
+      "puan": 339.174
+    },
+    {
+      "siralama": 212454,
+      "puan": 339.144
+    },
+    {
+      "siralama": 212746,
+      "puan": 339.001
+    },
+    {
+      "siralama": 213736,
+      "puan": 338.516
+    },
+    {
+      "siralama": 213805,
+      "puan": 338.482
+    },
+    {
+      "siralama": 214124,
+      "puan": 338.326
+    },
+    {
+      "siralama": 214247,
+      "puan": 338.266
+    },
+    {
+      "siralama": 217185,
+      "puan": 336.866
+    },
+    {
+      "siralama": 217336,
+      "puan": 336.794
+    },
+    {
+      "siralama": 217459,
+      "puan": 336.735
+    },
+    {
+      "siralama": 218339,
+      "puan": 336.315
+    },
+    {
+      "siralama": 218838,
+      "puan": 336.076
+    },
+    {
+      "siralama": 218944,
+      "puan": 336.026
+    },
+    {
+      "siralama": 218983,
+      "puan": 336.007
+    },
+    {
+      "siralama": 219941,
+      "puan": 335.563
+    },
+    {
+      "siralama": 220634,
+      "puan": 335.244
+    },
+    {
+      "siralama": 220774,
+      "puan": 335.179
+    },
+    {
+      "siralama": 221664,
+      "puan": 334.767
+    },
+    {
+      "siralama": 223086,
+      "puan": 334.107
+    },
+    {
+      "siralama": 223208,
+      "puan": 334.051
+    },
+    {
+      "siralama": 223601,
+      "puan": 333.869
+    },
+    {
+      "siralama": 224496,
+      "puan": 333.454
+    },
+    {
+      "siralama": 224982,
+      "puan": 333.229
+    },
+    {
+      "siralama": 225241,
+      "puan": 333.115
+    },
+    {
+      "siralama": 225785,
+      "puan": 332.874
+    },
+    {
+      "siralama": 225850,
+      "puan": 332.846
+    },
+    {
+      "siralama": 226802,
+      "puan": 332.425
+    },
+    {
+      "siralama": 227326,
+      "puan": 332.193
+    },
+    {
+      "siralama": 227714,
+      "puan": 332.019
+    },
+    {
+      "siralama": 228858,
+      "puan": 331.501
+    },
+    {
+      "siralama": 230718,
+      "puan": 330.692
+    },
+    {
+      "siralama": 231523,
+      "puan": 330.344
+    },
+    {
+      "siralama": 232108,
+      "puan": 330.091
+    },
+    {
+      "siralama": 232317,
+      "puan": 330
+    },
+    {
+      "siralama": 233234,
+      "puan": 329.601
+    },
+    {
+      "siralama": 233434,
+      "puan": 329.514
+    },
+    {
+      "siralama": 234374,
+      "puan": 329.104
+    },
+    {
+      "siralama": 235079,
+      "puan": 328.798
+    },
+    {
+      "siralama": 236643,
+      "puan": 328.122
+    },
+    {
+      "siralama": 238211,
+      "puan": 327.44
+    },
+    {
+      "siralama": 238499,
+      "puan": 327.312
+    },
+    {
+      "siralama": 240726,
+      "puan": 326.328
+    },
+    {
+      "siralama": 240768,
+      "puan": 326.31
+    },
+    {
+      "siralama": 242883,
+      "puan": 325.444
+    },
+    {
+      "siralama": 242889,
+      "puan": 325.441
+    },
+    {
+      "siralama": 243319,
+      "puan": 325.266
+    },
+    {
+      "siralama": 245201,
+      "puan": 324.486
+    },
+    {
+      "siralama": 246884,
+      "puan": 323.792
+    },
+    {
+      "siralama": 247485,
+      "puan": 323.546
+    },
+    {
+      "siralama": 254890,
+      "puan": 320.503
+    },
+    {
+      "siralama": 256199,
+      "puan": 319.984
+    },
+    {
+      "siralama": 258806,
+      "puan": 318.944
+    },
+    {
+      "siralama": 258884,
+      "puan": 318.913
+    },
+    {
+      "siralama": 258958,
+      "puan": 318.883
+    },
+    {
+      "siralama": 259608,
+      "puan": 318.623
+    },
+    {
+      "siralama": 261285,
+      "puan": 317.964
+    },
+    {
+      "siralama": 261433,
+      "puan": 317.906
+    },
+    {
+      "siralama": 262837,
+      "puan": 317.358
+    },
+    {
+      "siralama": 262933,
+      "puan": 317.32
+    },
+    {
+      "siralama": 262962,
+      "puan": 317.309
+    },
+    {
+      "siralama": 263535,
+      "puan": 317.085
+    },
+    {
+      "siralama": 264306,
+      "puan": 316.784
+    },
+    {
+      "siralama": 264483,
+      "puan": 316.715
+    },
+    {
+      "siralama": 264885,
+      "puan": 316.558
+    },
+    {
+      "siralama": 265074,
+      "puan": 316.484
+    },
+    {
+      "siralama": 266447,
+      "puan": 315.939
+    },
+    {
+      "siralama": 270374,
+      "puan": 314.436
+    },
+    {
+      "siralama": 273360,
+      "puan": 313.309
+    },
+    {
+      "siralama": 274572,
+      "puan": 312.849
+    },
+    {
+      "siralama": 277323,
+      "puan": 311.812
+    },
+    {
+      "siralama": 277805,
+      "puan": 311.631
+    },
+    {
+      "siralama": 281196,
+      "puan": 310.367
+    },
+    {
+      "siralama": 282213,
+      "puan": 310
+    },
+    {
+      "siralama": 289171,
+      "puan": 307.485
+    },
+    {
+      "siralama": 289208,
+      "puan": 307.472
+    },
+    {
+      "siralama": 290146,
+      "puan": 307.151
+    },
+    {
+      "siralama": 290795,
+      "puan": 306.933
+    },
+    {
+      "siralama": 293569,
+      "puan": 306.005
+    },
+    {
+      "siralama": 298376,
+      "puan": 304.349
+    },
+    {
+      "siralama": 298505,
+      "puan": 304.305
+    },
+    {
+      "siralama": 344726,
+      "puan": 290
+    },
+    {
+      "siralama": 425443,
+      "puan": 270
+    },
+    {
+      "siralama": 533920,
+      "puan": 250
+    },
+    {
+      "siralama": 681176,
+      "puan": 230
+    },
+    {
+      "siralama": 858167,
+      "puan": 210
+    },
+    {
+      "siralama": 1019046,
+      "puan": 190
+    },
+    {
+      "siralama": 1117304,
+      "puan": 170
+    },
+    {
+      "siralama": 1135198,
+      "puan": 150
+    },
+    {
+      "siralama": 1135713,
+      "puan": 130
+    },
+    {
+      "siralama": 1135718,
+      "puan": 115
+    }
+  ],
+  "EA": [
+    {
+      "puan": 2026,
+      "siralama": 1
+    },
+    {
+      "puan": 2026,
+      "siralama": 2
+    },
+    {
+      "puan": 2026,
+      "siralama": 3
+    },
+    {
+      "puan": 2026,
+      "siralama": 4
+    },
+    {
+      "puan": 2026,
+      "siralama": 5
+    },
+    {
+      "puan": 2026,
+      "siralama": 6
+    },
+    {
+      "puan": 2026,
+      "siralama": 7
+    },
+    {
+      "puan": 2026,
+      "siralama": 8
+    },
+    {
+      "puan": 2026,
+      "siralama": 9
+    },
+    {
+      "puan": 2026,
+      "siralama": 10
+    },
+    {
+      "puan": 2026,
+      "siralama": 11
+    },
+    {
+      "puan": 2026,
+      "siralama": 12
+    },
+    {
+      "puan": 2026,
+      "siralama": 13
+    },
+    {
+      "puan": 2026,
+      "siralama": 14
+    },
+    {
+      "puan": 2026,
+      "siralama": 15
+    },
+    {
+      "puan": 2026,
+      "siralama": 16
+    },
+    {
+      "puan": 2026,
+      "siralama": 17
+    },
+    {
+      "puan": 2026,
+      "siralama": 18
+    },
+    {
+      "puan": 2026,
+      "siralama": 20
+    },
+    {
+      "puan": 2026,
+      "siralama": 21
+    },
+    {
+      "puan": 2026,
+      "siralama": 22
+    },
+    {
+      "puan": 2026,
+      "siralama": 23
+    },
+    {
+      "puan": 2026,
+      "siralama": 24
+    },
+    {
+      "puan": 2026,
+      "siralama": 25
+    },
+    {
+      "puan": 2026,
+      "siralama": 26
+    },
+    {
+      "puan": 2026,
+      "siralama": 27
+    },
+    {
+      "puan": 2026,
+      "siralama": 28
+    },
+    {
+      "puan": 2026,
+      "siralama": 29
+    },
+    {
+      "puan": 2026,
+      "siralama": 30
+    },
+    {
+      "puan": 2026,
+      "siralama": 31
+    },
+    {
+      "puan": 2026,
+      "siralama": 32
+    },
+    {
+      "puan": 2026,
+      "siralama": 33
+    },
+    {
+      "puan": 2026,
+      "siralama": 34
+    },
+    {
+      "puan": 2026,
+      "siralama": 36
+    },
+    {
+      "puan": 2026,
+      "siralama": 37
+    },
+    {
+      "puan": 2026,
+      "siralama": 39
+    },
+    {
+      "puan": 2026,
+      "siralama": 40
+    },
+    {
+      "puan": 2026,
+      "siralama": 41
+    },
+    {
+      "puan": 2026,
+      "siralama": 42
+    },
+    {
+      "puan": 2026,
+      "siralama": 44
+    },
+    {
+      "puan": 2026,
+      "siralama": 47
+    },
+    {
+      "puan": 2026,
+      "siralama": 48
+    },
+    {
+      "puan": 2026,
+      "siralama": 49
+    },
+    {
+      "puan": 2026,
+      "siralama": 50
+    },
+    {
+      "puan": 2026,
+      "siralama": 51
+    },
+    {
+      "puan": 2026,
+      "siralama": 52
+    },
+    {
+      "puan": 2026,
+      "siralama": 54
+    },
+    {
+      "puan": 2026,
+      "siralama": 55
+    },
+    {
+      "puan": 2026,
+      "siralama": 58
+    },
+    {
+      "puan": 2026,
+      "siralama": 59
+    },
+    {
+      "puan": 2026,
+      "siralama": 60
+    },
+    {
+      "puan": 2026,
+      "siralama": 62
+    },
+    {
+      "puan": 2026,
+      "siralama": 64
+    },
+    {
+      "puan": 2026,
+      "siralama": 65
+    },
+    {
+      "puan": 2026,
+      "siralama": 68
+    },
+    {
+      "puan": 2026,
+      "siralama": 70
+    },
+    {
+      "puan": 2026,
+      "siralama": 71
+    },
+    {
+      "puan": 2026,
+      "siralama": 72
+    },
+    {
+      "puan": 2026,
+      "siralama": 74
+    },
+    {
+      "puan": 2026,
+      "siralama": 75
+    },
+    {
+      "puan": 2026,
+      "siralama": 76
+    },
+    {
+      "puan": 2026,
+      "siralama": 77
+    },
+    {
+      "puan": 2026,
+      "siralama": 78
+    },
+    {
+      "puan": 2026,
+      "siralama": 79
+    },
+    {
+      "puan": 2026,
+      "siralama": 82
+    },
+    {
+      "puan": 2026,
+      "siralama": 84
+    },
+    {
+      "puan": 2026,
+      "siralama": 93
+    },
+    {
+      "puan": 2026,
+      "siralama": 94
+    },
+    {
+      "puan": 2026,
+      "siralama": 96
+    },
+    {
+      "puan": 2026,
+      "siralama": 103
+    },
+    {
+      "puan": 529.302,
+      "siralama": 105
+    },
+    {
+      "puan": 2026,
+      "siralama": 110
+    },
+    {
+      "puan": 2026,
+      "siralama": 123
+    },
+    {
+      "puan": 526.26,
+      "siralama": 136
+    },
+    {
+      "puan": 2026,
+      "siralama": 154
+    },
+    {
+      "puan": 2026,
+      "siralama": 158
+    },
+    {
+      "puan": 2026,
+      "siralama": 257
+    },
+    {
+      "puan": 2026,
+      "siralama": 264
+    },
+    {
+      "puan": 514.678,
+      "siralama": 305
+    },
+    {
+      "puan": 514.092,
+      "siralama": 319
+    },
+    {
+      "puan": 506.012,
+      "siralama": 494
+    },
+    {
+      "puan": 504.744,
+      "siralama": 533
+    },
+    {
+      "puan": 503.834,
+      "siralama": 562
+    },
+    {
+      "puan": 500.766,
+      "siralama": 665
+    },
+    {
+      "puan": 493.914,
+      "siralama": 927
+    },
+    {
+      "puan": 489.348,
+      "siralama": 1154
+    },
+    {
+      "puan": 487.617,
+      "siralama": 1245
+    },
+    {
+      "puan": 482.06,
+      "siralama": 1584
+    },
+    {
+      "puan": 481.639,
+      "siralama": 1609
+    },
+    {
+      "puan": 481.529,
+      "siralama": 1616
+    },
+    {
+      "puan": 2026,
+      "siralama": 2026
+    },
+    {
+      "puan": 193.114,
+      "siralama": 2026
+    },
+    {
+      "puan": 156.84,
+      "siralama": 2026
+    },
+    {
+      "puan": 201.853,
+      "siralama": 2026
+    },
+    {
+      "puan": 165.039,
+      "siralama": 2026
+    },
+    {
+      "puan": 178.295,
+      "siralama": 2026
+    },
+    {
+      "puan": 170.884,
+      "siralama": 2026
+    },
+    {
+      "puan": 190.167,
+      "siralama": 2026
+    },
+    {
+      "puan": 202.437,
+      "siralama": 2026
+    },
+    {
+      "puan": 70,
+      "siralama": 2026
+    },
+    {
+      "puan": 39,
+      "siralama": 2026
+    },
+    {
+      "puan": 55,
+      "siralama": 2026
+    },
+    {
+      "puan": 34,
+      "siralama": 2026
+    },
+    {
+      "puan": 25,
+      "siralama": 2026
+    },
+    {
+      "puan": 30,
+      "siralama": 2026
+    },
+    {
+      "puan": 186.197,
+      "siralama": 2026
+    },
+    {
+      "puan": 21,
+      "siralama": 2026
+    },
+    {
+      "puan": 48,
+      "siralama": 2026
+    },
+    {
+      "puan": 54,
+      "siralama": 2026
+    },
+    {
+      "puan": 210.159,
+      "siralama": 2026
+    },
+    {
+      "puan": 26,
+      "siralama": 2026
+    },
+    {
+      "puan": 47,
+      "siralama": 2026
+    },
+    {
+      "puan": 37,
+      "siralama": 2026
+    },
+    {
+      "puan": 188.717,
+      "siralama": 2026
+    },
+    {
+      "puan": 16,
+      "siralama": 2026
+    },
+    {
+      "puan": 10,
+      "siralama": 2026
+    },
+    {
+      "puan": 5,
+      "siralama": 2026
+    },
+    {
+      "puan": 7,
+      "siralama": 2026
+    },
+    {
+      "puan": 11,
+      "siralama": 2026
+    },
+    {
+      "puan": 15,
+      "siralama": 2026
+    },
+    {
+      "puan": 18,
+      "siralama": 2026
+    },
+    {
+      "puan": 20,
+      "siralama": 2026
+    },
+    {
+      "puan": 24,
+      "siralama": 2026
+    },
+    {
+      "puan": 166.192,
+      "siralama": 2026
+    },
+    {
+      "puan": 13,
+      "siralama": 2026
+    },
+    {
+      "puan": 42,
+      "siralama": 2026
+    },
+    {
+      "puan": 223.053,
+      "siralama": 2026
+    },
+    {
+      "puan": 28,
+      "siralama": 2026
+    },
+    {
+      "puan": 321.404,
+      "siralama": 2026
+    },
+    {
+      "puan": 333.928,
+      "siralama": 2026
+    },
+    {
+      "puan": 146.434,
+      "siralama": 2026
+    },
+    {
+      "puan": 3,
+      "siralama": 2026
+    },
+    {
+      "puan": 475.607,
+      "siralama": 2029
+    },
+    {
+      "puan": 475.142,
+      "siralama": 2067
+    },
+    {
+      "puan": 473.9,
+      "siralama": 2167
+    },
+    {
+      "puan": 471.404,
+      "siralama": 2369
+    },
+    {
+      "puan": 465.849,
+      "siralama": 2943
+    },
+    {
+      "puan": 465.07,
+      "siralama": 3040
+    },
+    {
+      "puan": 464.626,
+      "siralama": 3088
+    },
+    {
+      "puan": 464.285,
+      "siralama": 3115
+    },
+    {
+      "puan": 461.198,
+      "siralama": 3426
+    },
+    {
+      "puan": 460.105,
+      "siralama": 3680
+    },
+    {
+      "puan": 456.84,
+      "siralama": 4147
+    },
+    {
+      "puan": 456.169,
+      "siralama": 4248
+    },
+    {
+      "puan": 455.181,
+      "siralama": 4397
+    },
+    {
+      "puan": 454.713,
+      "siralama": 4468
+    },
+    {
+      "puan": 453.907,
+      "siralama": 4599
+    },
+    {
+      "puan": 453.345,
+      "siralama": 4700
+    },
+    {
+      "puan": 396.64,
+      "siralama": 4798
+    },
+    {
+      "puan": 452.727,
+      "siralama": 4813
+    },
+    {
+      "puan": 451.563,
+      "siralama": 5009
+    },
+    {
+      "puan": 450.922,
+      "siralama": 5128
+    },
+    {
+      "puan": 449.63,
+      "siralama": 5378
+    },
+    {
+      "puan": 448.959,
+      "siralama": 5520
+    },
+    {
+      "puan": 448.177,
+      "siralama": 5684
+    },
+    {
+      "puan": 447.034,
+      "siralama": 5936
+    },
+    {
+      "puan": 446.893,
+      "siralama": 5968
+    },
+    {
+      "puan": 446.722,
+      "siralama": 6008
+    },
+    {
+      "puan": 446.435,
+      "siralama": 6074
+    },
+    {
+      "puan": 445.053,
+      "siralama": 6382
+    },
+    {
+      "puan": 444.981,
+      "siralama": 6399
+    },
+    {
+      "puan": 444.477,
+      "siralama": 6525
+    },
+    {
+      "puan": 444.28,
+      "siralama": 6571
+    },
+    {
+      "puan": 444.091,
+      "siralama": 6616
+    },
+    {
+      "puan": 442.465,
+      "siralama": 7035
+    },
+    {
+      "puan": 441.336,
+      "siralama": 7378
+    },
+    {
+      "puan": 441.239,
+      "siralama": 7407
+    },
+    {
+      "puan": 440.725,
+      "siralama": 7572
+    },
+    {
+      "puan": 440.309,
+      "siralama": 7709
+    },
+    {
+      "puan": 439.251,
+      "siralama": 8062
+    },
+    {
+      "puan": 439.147,
+      "siralama": 8101
+    },
+    {
+      "puan": 437.153,
+      "siralama": 8852
+    },
+    {
+      "puan": 436.874,
+      "siralama": 8976
+    },
+    {
+      "puan": 436.163,
+      "siralama": 9279
+    },
+    {
+      "puan": 435.527,
+      "siralama": 9551
+    },
+    {
+      "puan": 434.994,
+      "siralama": 9798
+    },
+    {
+      "puan": 434.929,
+      "siralama": 9827
+    },
+    {
+      "puan": 434.849,
+      "siralama": 9863
+    },
+    {
+      "puan": 434.805,
+      "siralama": 9883
+    },
+    {
+      "puan": 434.718,
+      "siralama": 9923
+    },
+    {
+      "puan": 433.664,
+      "siralama": 10417
+    },
+    {
+      "puan": 433.633,
+      "siralama": 10434
+    },
+    {
+      "puan": 433.057,
+      "siralama": 10741
+    },
+    {
+      "puan": 432.955,
+      "siralama": 10795
+    },
+    {
+      "puan": 432.787,
+      "siralama": 10884
+    },
+    {
+      "puan": 432.731,
+      "siralama": 10913
+    },
+    {
+      "puan": 432.368,
+      "siralama": 11114
+    },
+    {
+      "puan": 431.99,
+      "siralama": 11312
+    },
+    {
+      "puan": 431.06,
+      "siralama": 11777
+    },
+    {
+      "puan": 430.527,
+      "siralama": 12081
+    },
+    {
+      "puan": 429.664,
+      "siralama": 12586
+    },
+    {
+      "puan": 429.597,
+      "siralama": 12623
+    },
+    {
+      "puan": 428.991,
+      "siralama": 12982
+    },
+    {
+      "puan": 428.816,
+      "siralama": 13091
+    },
+    {
+      "puan": 428.78,
+      "siralama": 13112
+    },
+    {
+      "puan": 428.561,
+      "siralama": 13245
+    },
+    {
+      "puan": 427.858,
+      "siralama": 13674
+    },
+    {
+      "puan": 427.562,
+      "siralama": 13871
+    },
+    {
+      "puan": 427.015,
+      "siralama": 14229
+    },
+    {
+      "puan": 426.8,
+      "siralama": 14372
+    },
+    {
+      "puan": 426.586,
+      "siralama": 14515
+    },
+    {
+      "puan": 426.522,
+      "siralama": 14558
+    },
+    {
+      "puan": 426.064,
+      "siralama": 14864
+    },
+    {
+      "puan": 424.812,
+      "siralama": 15709
+    },
+    {
+      "puan": 424.653,
+      "siralama": 15825
+    },
+    {
+      "puan": 424.248,
+      "siralama": 16120
+    },
+    {
+      "puan": 423.126,
+      "siralama": 16950
+    },
+    {
+      "puan": 422.741,
+      "siralama": 17254
+    },
+    {
+      "puan": 422.673,
+      "siralama": 17304
+    },
+    {
+      "puan": 422.464,
+      "siralama": 17464
+    },
+    {
+      "puan": 421.636,
+      "siralama": 18118
+    },
+    {
+      "puan": 421.192,
+      "siralama": 18460
+    },
+    {
+      "puan": 421.155,
+      "siralama": 18489
+    },
+    {
+      "puan": 421.008,
+      "siralama": 18614
+    },
+    {
+      "puan": 421.004,
+      "siralama": 18617
+    },
+    {
+      "puan": 420.873,
+      "siralama": 18725
+    },
+    {
+      "puan": 420.755,
+      "siralama": 18823
+    },
+    {
+      "puan": 419.632,
+      "siralama": 19814
+    },
+    {
+      "puan": 419.293,
+      "siralama": 20140
+    },
+    {
+      "puan": 418.813,
+      "siralama": 20596
+    },
+    {
+      "puan": 418.527,
+      "siralama": 20849
+    },
+    {
+      "puan": 418.277,
+      "siralama": 21061
+    },
+    {
+      "puan": 417.711,
+      "siralama": 21582
+    },
+    {
+      "puan": 417.455,
+      "siralama": 21815
+    },
+    {
+      "puan": 417.412,
+      "siralama": 21854
+    },
+    {
+      "puan": 417.009,
+      "siralama": 22219
+    },
+    {
+      "puan": 415.351,
+      "siralama": 23852
+    },
+    {
+      "puan": 414.591,
+      "siralama": 24639
+    },
+    {
+      "puan": 414.567,
+      "siralama": 24664
+    },
+    {
+      "puan": 414.12,
+      "siralama": 25112
+    },
+    {
+      "puan": 413.401,
+      "siralama": 25883
+    },
+    {
+      "puan": 413.315,
+      "siralama": 25979
+    },
+    {
+      "puan": 412.57,
+      "siralama": 26777
+    },
+    {
+      "puan": 412.211,
+      "siralama": 27185
+    },
+    {
+      "puan": 412.128,
+      "siralama": 27278
+    },
+    {
+      "puan": 411.825,
+      "siralama": 27625
+    },
+    {
+      "puan": 411.513,
+      "siralama": 27945
+    },
+    {
+      "puan": 411.219,
+      "siralama": 28262
+    },
+    {
+      "puan": 409.861,
+      "siralama": 29857
+    },
+    {
+      "puan": 409.723,
+      "siralama": 30024
+    },
+    {
+      "puan": 407.361,
+      "siralama": 32871
+    },
+    {
+      "puan": 407.041,
+      "siralama": 33296
+    },
+    {
+      "puan": 406.716,
+      "siralama": 33715
+    },
+    {
+      "puan": 405.963,
+      "siralama": 34657
+    },
+    {
+      "puan": 405.539,
+      "siralama": 35179
+    },
+    {
+      "puan": 404.343,
+      "siralama": 36834
+    },
+    {
+      "puan": 404.088,
+      "siralama": 37174
+    },
+    {
+      "puan": 404.023,
+      "siralama": 37262
+    },
+    {
+      "puan": 403.975,
+      "siralama": 37328
+    },
+    {
+      "puan": 403.624,
+      "siralama": 37797
+    },
+    {
+      "puan": 403.273,
+      "siralama": 38253
+    },
+    {
+      "puan": 401.814,
+      "siralama": 40342
+    },
+    {
+      "puan": 401.564,
+      "siralama": 40702
+    },
+    {
+      "puan": 401.315,
+      "siralama": 41061
+    },
+    {
+      "puan": 401.061,
+      "siralama": 41418
+    },
+    {
+      "puan": 400.984,
+      "siralama": 41526
+    },
+    {
+      "puan": 394.964,
+      "siralama": 50537
+    },
+    {
+      "puan": 393.972,
+      "siralama": 52159
+    },
+    {
+      "puan": 393.947,
+      "siralama": 52200
+    },
+    {
+      "puan": 393.497,
+      "siralama": 52910
+    },
+    {
+      "puan": 393.458,
+      "siralama": 52967
+    },
+    {
+      "puan": 393.362,
+      "siralama": 53130
+    },
+    {
+      "puan": 391.961,
+      "siralama": 55486
+    },
+    {
+      "puan": 389.033,
+      "siralama": 60447
+    },
+    {
+      "puan": 388.818,
+      "siralama": 60815
+    },
+    {
+      "puan": 388.304,
+      "siralama": 61711
+    },
+    {
+      "puan": 386.427,
+      "siralama": 64937
+    },
+    {
+      "puan": 386.143,
+      "siralama": 65435
+    },
+    {
+      "puan": 385.778,
+      "siralama": 66103
+    },
+    {
+      "puan": 385.542,
+      "siralama": 66536
+    },
+    {
+      "puan": 384.602,
+      "siralama": 68308
+    },
+    {
+      "puan": 384.6,
+      "siralama": 68311
+    },
+    {
+      "puan": 383.937,
+      "siralama": 69604
+    },
+    {
+      "puan": 383.905,
+      "siralama": 69666
+    },
+    {
+      "puan": 383.76,
+      "siralama": 69947
+    },
+    {
+      "puan": 383.677,
+      "siralama": 70104
+    },
+    {
+      "puan": 383.004,
+      "siralama": 71369
+    },
+    {
+      "puan": 380.517,
+      "siralama": 76060
+    },
+    {
+      "puan": 380.334,
+      "siralama": 76422
+    },
+    {
+      "puan": 380.012,
+      "siralama": 77060
+    },
+    {
+      "puan": 378.327,
+      "siralama": 80412
+    },
+    {
+      "puan": 6,
+      "siralama": 81099
+    },
+    {
+      "puan": 377.452,
+      "siralama": 82136
+    },
+    {
+      "puan": 377.274,
+      "siralama": 82516
+    },
+    {
+      "puan": 377.101,
+      "siralama": 82890
+    },
+    {
+      "puan": 376.437,
+      "siralama": 84208
+    },
+    {
+      "puan": 376.196,
+      "siralama": 84689
+    },
+    {
+      "puan": 376.107,
+      "siralama": 84872
+    },
+    {
+      "puan": 375.926,
+      "siralama": 85244
+    },
+    {
+      "puan": 375.459,
+      "siralama": 86211
+    },
+    {
+      "puan": 375.372,
+      "siralama": 86397
+    },
+    {
+      "puan": 373.361,
+      "siralama": 90542
+    },
+    {
+      "puan": 372.84,
+      "siralama": 91607
+    },
+    {
+      "puan": 372.748,
+      "siralama": 91810
+    },
+    {
+      "puan": 371.474,
+      "siralama": 94605
+    },
+    {
+      "puan": 369.695,
+      "siralama": 98517
+    },
+    {
+      "puan": 369.237,
+      "siralama": 99535
+    },
+    {
+      "puan": 368.954,
+      "siralama": 100165
+    },
+    {
+      "puan": 367.856,
+      "siralama": 102598
+    },
+    {
+      "puan": 367.807,
+      "siralama": 102708
+    },
+    {
+      "puan": 366.181,
+      "siralama": 106388
+    },
+    {
+      "puan": 365.753,
+      "siralama": 107383
+    },
+    {
+      "puan": 365.695,
+      "siralama": 107518
+    },
+    {
+      "puan": 365.305,
+      "siralama": 108424
+    },
+    {
+      "puan": 365.15,
+      "siralama": 108785
+    },
+    {
+      "puan": 364.186,
+      "siralama": 111094
+    },
+    {
+      "puan": 363.751,
+      "siralama": 112076
+    },
+    {
+      "puan": 362.842,
+      "siralama": 114198
+    },
+    {
+      "puan": 362.642,
+      "siralama": 114682
+    },
+    {
+      "puan": 362.632,
+      "siralama": 114706
+    },
+    {
+      "puan": 362.617,
+      "siralama": 114742
+    },
+    {
+      "puan": 361.513,
+      "siralama": 117497
+    },
+    {
+      "puan": 361.272,
+      "siralama": 118087
+    },
+    {
+      "puan": 361.18,
+      "siralama": 118314
+    },
+    {
+      "puan": 360.999,
+      "siralama": 118765
+    },
+    {
+      "puan": 360.968,
+      "siralama": 118842
+    },
+    {
+      "puan": 360.825,
+      "siralama": 119199
+    },
+    {
+      "puan": 359.781,
+      "siralama": 121883
+    },
+    {
+      "puan": 359.066,
+      "siralama": 123725
+    },
+    {
+      "puan": 359.046,
+      "siralama": 123779
+    },
+    {
+      "puan": 358.431,
+      "siralama": 125401
+    },
+    {
+      "puan": 358.244,
+      "siralama": 125889
+    },
+    {
+      "puan": 357.659,
+      "siralama": 127401
+    },
+    {
+      "puan": 357.122,
+      "siralama": 128780
+    },
+    {
+      "puan": 356.281,
+      "siralama": 131061
+    },
+    {
+      "puan": 355.851,
+      "siralama": 132230
+    },
+    {
+      "puan": 355.282,
+      "siralama": 133769
+    },
+    {
+      "puan": 355.127,
+      "siralama": 134187
+    },
+    {
+      "puan": 353.967,
+      "siralama": 137319
+    },
+    {
+      "puan": 353.278,
+      "siralama": 139245
+    },
+    {
+      "puan": 352.677,
+      "siralama": 140945
+    },
+    {
+      "puan": 352.535,
+      "siralama": 141345
+    },
+    {
+      "puan": 352.415,
+      "siralama": 141685
+    },
+    {
+      "puan": 352.33,
+      "siralama": 141927
+    },
+    {
+      "puan": 351.659,
+      "siralama": 143856
+    },
+    {
+      "puan": 351.211,
+      "siralama": 145170
+    },
+    {
+      "puan": 350.959,
+      "siralama": 145903
+    },
+    {
+      "puan": 350.267,
+      "siralama": 147832
+    },
+    {
+      "puan": 349.848,
+      "siralama": 149005
+    },
+    {
+      "puan": 349.081,
+      "siralama": 151194
+    },
+    {
+      "puan": 348.663,
+      "siralama": 152436
+    },
+    {
+      "puan": 348.279,
+      "siralama": 153576
+    },
+    {
+      "puan": 347.512,
+      "siralama": 155849
+    },
+    {
+      "puan": 347.288,
+      "siralama": 156499
+    },
+    {
+      "puan": 72,
+      "siralama": 157403
+    },
+    {
+      "puan": 346.606,
+      "siralama": 158514
+    },
+    {
+      "puan": 346.389,
+      "siralama": 159152
+    },
+    {
+      "puan": 346.278,
+      "siralama": 159478
+    },
+    {
+      "puan": 346.12,
+      "siralama": 159941
+    },
+    {
+      "puan": 345.119,
+      "siralama": 163005
+    },
+    {
+      "puan": 343.915,
+      "siralama": 166742
+    },
+    {
+      "puan": 343.76,
+      "siralama": 167249
+    },
+    {
+      "puan": 343.466,
+      "siralama": 168214
+    },
+    {
+      "puan": 342.619,
+      "siralama": 170867
+    },
+    {
+      "puan": 10,
+      "siralama": 172700
+    },
+    {
+      "puan": 341.887,
+      "siralama": 173176
+    },
+    {
+      "puan": 340.962,
+      "siralama": 176189
+    },
+    {
+      "puan": 339.591,
+      "siralama": 180711
+    },
+    {
+      "puan": 339.583,
+      "siralama": 180737
+    },
+    {
+      "puan": 338.666,
+      "siralama": 183818
+    },
+    {
+      "puan": 338.611,
+      "siralama": 184006
+    },
+    {
+      "puan": 338.076,
+      "siralama": 185851
+    },
+    {
+      "puan": 336.953,
+      "siralama": 189766
+    },
+    {
+      "puan": 336.103,
+      "siralama": 192751
+    },
+    {
+      "puan": 336.098,
+      "siralama": 192769
+    },
+    {
+      "puan": 335.032,
+      "siralama": 196574
+    },
+    {
+      "puan": 333.855,
+      "siralama": 200853
+    },
+    {
+      "puan": 333.622,
+      "siralama": 201729
+    },
+    {
+      "puan": 333.571,
+      "siralama": 201921
+    },
+    {
+      "puan": 333.26,
+      "siralama": 203085
+    },
+    {
+      "puan": 332.718,
+      "siralama": 205116
+    },
+    {
+      "puan": 331.456,
+      "siralama": 209922
+    },
+    {
+      "puan": 331.074,
+      "siralama": 211415
+    },
+    {
+      "puan": 330.82,
+      "siralama": 212410
+    },
+    {
+      "puan": 330.207,
+      "siralama": 214815
+    },
+    {
+      "puan": 328.686,
+      "siralama": 220832
+    },
+    {
+      "puan": 328.597,
+      "siralama": 221180
+    },
+    {
+      "puan": 328.417,
+      "siralama": 221884
+    },
+    {
+      "puan": 4,
+      "siralama": 223044
+    },
+    {
+      "puan": 327.401,
+      "siralama": 225913
+    },
+    {
+      "puan": 326.042,
+      "siralama": 231622
+    },
+    {
+      "puan": 325.507,
+      "siralama": 233899
+    },
+    {
+      "puan": 324.599,
+      "siralama": 237789
+    },
+    {
+      "puan": 323.511,
+      "siralama": 242522
+    },
+    {
+      "puan": 322.827,
+      "siralama": 245464
+    },
+    {
+      "puan": 322.354,
+      "siralama": 247497
+    },
+    {
+      "puan": 321.298,
+      "siralama": 252214
+    },
+    {
+      "puan": 320.4,
+      "siralama": 256357
+    },
+    {
+      "puan": 319.428,
+      "siralama": 260858
+    },
+    {
+      "puan": 318.362,
+      "siralama": 265797
+    },
+    {
+      "puan": 318.04,
+      "siralama": 267289
+    },
+    {
+      "puan": 317.707,
+      "siralama": 268832
+    },
+    {
+      "puan": 317.595,
+      "siralama": 269354
+    },
+    {
+      "puan": 317.001,
+      "siralama": 272160
+    },
+    {
+      "puan": 316.555,
+      "siralama": 274348
+    },
+    {
+      "puan": 316.445,
+      "siralama": 274887
+    },
+    {
+      "puan": 316.191,
+      "siralama": 276138
+    },
+    {
+      "puan": 316.132,
+      "siralama": 276427
+    },
+    {
+      "puan": 314.941,
+      "siralama": 282282
+    },
+    {
+      "puan": 313.627,
+      "siralama": 288806
+    },
+    {
+      "puan": 1,
+      "siralama": 290202
+    },
+    {
+      "puan": 312.953,
+      "siralama": 292249
+    },
+    {
+      "puan": 312.561,
+      "siralama": 294311
+    },
+    {
+      "puan": 312.255,
+      "siralama": 295890
+    },
+    {
+      "puan": 311.954,
+      "siralama": 297448
+    },
+    {
+      "puan": 310.59,
+      "siralama": 304706
+    },
+    {
+      "puan": 310.548,
+      "siralama": 304930
+    },
+    {
+      "puan": 308.151,
+      "siralama": 317796
+    },
+    {
+      "puan": 306.942,
+      "siralama": 324431
+    },
+    {
+      "puan": 306.009,
+      "siralama": 329608
+    },
+    {
+      "puan": 303.732,
+      "siralama": 342480
+    },
+    {
+      "puan": 301.568,
+      "siralama": 355169
+    },
+    {
+      "puan": 301.038,
+      "siralama": 358333
+    },
+    {
+      "puan": 301.025,
+      "siralama": 358411
+    },
+    {
+      "puan": 300.768,
+      "siralama": 359943
+    },
+    {
+      "puan": 79,
+      "siralama": 370746
+    },
+    {
+      "puan": 297.579,
+      "siralama": 379553
+    },
+    {
+      "puan": 295.706,
+      "siralama": 391476
+    },
+    {
+      "puan": 295.178,
+      "siralama": 394846
+    },
+    {
+      "puan": 295.143,
+      "siralama": 395069
+    },
+    {
+      "puan": 295.06,
+      "siralama": 395611
+    },
+    {
+      "puan": 295.041,
+      "siralama": 395729
+    },
+    {
+      "puan": 294.818,
+      "siralama": 397177
+    },
+    {
+      "puan": 294.079,
+      "siralama": 401942
+    },
+    {
+      "puan": 293.566,
+      "siralama": 405344
+    },
+    {
+      "puan": 293.046,
+      "siralama": 408819
+    },
+    {
+      "puan": 292.962,
+      "siralama": 409377
+    },
+    {
+      "puan": 291.651,
+      "siralama": 418130
+    },
+    {
+      "puan": 291.135,
+      "siralama": 421620
+    },
+    {
+      "puan": 290.966,
+      "siralama": 422766
+    },
+    {
+      "puan": 290.675,
+      "siralama": 424734
+    },
+    {
+      "puan": 289.398,
+      "siralama": 433756
+    },
+    {
+      "puan": 288.611,
+      "siralama": 439260
+    },
+    {
+      "puan": 42,
+      "siralama": 449245
+    },
+    {
+      "puan": 286.693,
+      "siralama": 452840
+    },
+    {
+      "puan": 285.644,
+      "siralama": 460542
+    },
+    {
+      "puan": 285.033,
+      "siralama": 465118
+    },
+    {
+      "puan": 42,
+      "siralama": 471211
+    },
+    {
+      "puan": 282.683,
+      "siralama": 482729
+    },
+    {
+      "puan": 29,
+      "siralama": 486930
+    },
+    {
+      "puan": 281.183,
+      "siralama": 494219
+    },
+    {
+      "puan": 281.133,
+      "siralama": 494603
+    },
+    {
+      "puan": 280.412,
+      "siralama": 500178
+    },
+    {
+      "puan": 280.302,
+      "siralama": 501028
+    },
+    {
+      "puan": 280.259,
+      "siralama": 501363
+    },
+    {
+      "puan": 279.738,
+      "siralama": 505345
+    },
+    {
+      "puan": 279.106,
+      "siralama": 510284
+    },
+    {
+      "puan": 278.869,
+      "siralama": 512152
+    },
+    {
+      "puan": 278.843,
+      "siralama": 512358
+    },
+    {
+      "puan": 278.686,
+      "siralama": 513589
+    },
+    {
+      "puan": 276.659,
+      "siralama": 529633
+    },
+    {
+      "puan": 276.354,
+      "siralama": 532042
+    },
+    {
+      "puan": 276.056,
+      "siralama": 534428
+    },
+    {
+      "puan": 275.965,
+      "siralama": 535170
+    },
+    {
+      "puan": 275.464,
+      "siralama": 539269
+    },
+    {
+      "puan": 274.21,
+      "siralama": 549681
+    },
+    {
+      "puan": 274.078,
+      "siralama": 550779
+    },
+    {
+      "puan": 274.004,
+      "siralama": 551396
+    },
+    {
+      "puan": 273.407,
+      "siralama": 556328
+    },
+    {
+      "puan": 272.748,
+      "siralama": 561815
+    },
+    {
+      "puan": 20,
+      "siralama": 562294
+    },
+    {
+      "puan": 272.595,
+      "siralama": 563094
+    },
+    {
+      "puan": 271.889,
+      "siralama": 569092
+    },
+    {
+      "puan": 271.838,
+      "siralama": 569544
+    },
+    {
+      "puan": 271.597,
+      "siralama": 571610
+    },
+    {
+      "puan": 270.943,
+      "siralama": 577188
+    },
+    {
+      "puan": 269.977,
+      "siralama": 585476
+    },
+    {
+      "puan": 269.635,
+      "siralama": 588492
+    },
+    {
+      "puan": 269.417,
+      "siralama": 590420
+    },
+    {
+      "puan": 268.09,
+      "siralama": 601994
+    },
+    {
+      "puan": 267.524,
+      "siralama": 607100
+    },
+    {
+      "puan": 267.5,
+      "siralama": 607310
+    },
+    {
+      "puan": 267.004,
+      "siralama": 611700
+    },
+    {
+      "puan": 265.99,
+      "siralama": 620909
+    },
+    {
+      "puan": 264.427,
+      "siralama": 634984
+    },
+    {
+      "puan": 264.185,
+      "siralama": 637219
+    },
+    {
+      "puan": 263.083,
+      "siralama": 647391
+    },
+    {
+      "puan": 262.485,
+      "siralama": 653016
+    },
+    {
+      "puan": 261.429,
+      "siralama": 663063
+    },
+    {
+      "puan": 261.365,
+      "siralama": 663683
+    },
+    {
+      "puan": 261.009,
+      "siralama": 667111
+    },
+    {
+      "puan": 260.705,
+      "siralama": 670037
+    },
+    {
+      "puan": 259.286,
+      "siralama": 683725
+    },
+    {
+      "puan": 259.032,
+      "siralama": 686158
+    },
+    {
+      "puan": 258.135,
+      "siralama": 694733
+    },
+    {
+      "puan": 257.772,
+      "siralama": 698073
+    },
+    {
+      "puan": 257.7,
+      "siralama": 698735
+    },
+    {
+      "puan": 256.786,
+      "siralama": 707876
+    },
+    {
+      "puan": 255.85,
+      "siralama": 716953
+    },
+    {
+      "puan": 3,
+      "siralama": 717490
+    },
+    {
+      "puan": 254.622,
+      "siralama": 729064
+    },
+    {
+      "puan": 254.29,
+      "siralama": 732425
+    },
+    {
+      "puan": 254.193,
+      "siralama": 733391
+    },
+    {
+      "puan": 253.977,
+      "siralama": 735538
+    },
+    {
+      "puan": 252.969,
+      "siralama": 745666
+    },
+    {
+      "puan": 252.513,
+      "siralama": 750332
+    },
+    {
+      "puan": 251.551,
+      "siralama": 760038
+    },
+    {
+      "puan": 250.118,
+      "siralama": 774709
+    },
+    {
+      "puan": 249.296,
+      "siralama": 783263
+    },
+    {
+      "puan": 247.784,
+      "siralama": 799082
+    },
+    {
+      "puan": 247.612,
+      "siralama": 800896
+    },
+    {
+      "puan": 246.474,
+      "siralama": 812694
+    },
+    {
+      "puan": 245.731,
+      "siralama": 820374
+    },
+    {
+      "puan": 245.351,
+      "siralama": 824341
+    },
+    {
+      "puan": 245.109,
+      "siralama": 826913
+    },
+    {
+      "puan": 244.395,
+      "siralama": 834529
+    },
+    {
+      "puan": 243.977,
+      "siralama": 838988
+    },
+    {
+      "puan": 243.841,
+      "siralama": 840432
+    },
+    {
+      "puan": 241.633,
+      "siralama": 864176
+    },
+    {
+      "puan": 241.585,
+      "siralama": 864691
+    },
+    {
+      "puan": 37,
+      "siralama": 867897
+    },
+    {
+      "puan": 241.265,
+      "siralama": 868152
+    },
+    {
+      "puan": 238.265,
+      "siralama": 900517
+    },
+    {
+      "puan": 237.822,
+      "siralama": 905353
+    },
+    {
+      "puan": 237.726,
+      "siralama": 906399
+    },
+    {
+      "puan": 236.793,
+      "siralama": 916662
+    },
+    {
+      "puan": 236.564,
+      "siralama": 919163
+    },
+    {
+      "puan": 235.488,
+      "siralama": 931020
+    },
+    {
+      "puan": 234.643,
+      "siralama": 940158
+    },
+    {
+      "puan": 18,
+      "siralama": 953815
+    },
+    {
+      "puan": 233.167,
+      "siralama": 956179
+    },
+    {
+      "puan": 232.639,
+      "siralama": 961962
+    },
+    {
+      "puan": 231.758,
+      "siralama": 971618
+    },
+    {
+      "puan": 231.626,
+      "siralama": 973058
+    },
+    {
+      "puan": 230.977,
+      "siralama": 980172
+    },
+    {
+      "puan": 48,
+      "siralama": 982930
+    },
+    {
+      "puan": 229.586,
+      "siralama": 995218
+    },
+    {
+      "puan": 227.55,
+      "siralama": 1017254
+    },
+    {
+      "puan": 226.493,
+      "siralama": 1028783
+    },
+    {
+      "puan": 226.107,
+      "siralama": 1033025
+    },
+    {
+      "puan": 225.783,
+      "siralama": 1036485
+    },
+    {
+      "puan": 225.346,
+      "siralama": 1041230
+    },
+    {
+      "puan": 225.211,
+      "siralama": 1042697
+    },
+    {
+      "puan": 225.007,
+      "siralama": 1044926
+    },
+    {
+      "puan": 36,
+      "siralama": 1051978
+    },
+    {
+      "puan": 10,
+      "siralama": 1085682
+    },
+    {
+      "puan": 219.855,
+      "siralama": 1099421
+    },
+    {
+      "puan": 219.426,
+      "siralama": 1103798
+    },
+    {
+      "puan": 218.604,
+      "siralama": 1112130
+    },
+    {
+      "puan": 30,
+      "siralama": 1168928
+    },
+    {
+      "puan": 212.572,
+      "siralama": 1172244
+    },
+    {
+      "puan": 210.973,
+      "siralama": 1187630
+    },
+    {
+      "puan": 210.658,
+      "siralama": 1190600
+    },
+    {
+      "puan": 209.614,
+      "siralama": 1200300
+    },
+    {
+      "puan": 208.667,
+      "siralama": 1208962
+    },
+    {
+      "puan": 206.986,
+      "siralama": 1223941
+    },
+    {
+      "puan": 204.852,
+      "siralama": 1242407
+    },
+    {
+      "puan": 202.21,
+      "siralama": 1264004
+    },
+    {
+      "puan": 201.637,
+      "siralama": 1268522
+    },
+    {
+      "puan": 195.389,
+      "siralama": 1312807
+    },
+    {
+      "puan": 192.043,
+      "siralama": 1334053
+    },
+    {
+      "puan": 190.833,
+      "siralama": 1341734
+    },
+    {
+      "puan": 189.523,
+      "siralama": 1349099
+    },
+    {
+      "puan": 9,
+      "siralama": 1354178
+    },
+    {
+      "puan": 188.159,
+      "siralama": 1354518
+    },
+    {
+      "puan": 173.55,
+      "siralama": 1406983
+    },
+    {
+      "puan": 168.246,
+      "siralama": 1413908
+    }
+  ],
+  "SOZ": [
+    {
+      "puan": 413.379,
+      "siralama": 8816
+    },
+    {
+      "puan": 407.4,
+      "siralama": 11398
+    },
+    {
+      "puan": 402.529,
+      "siralama": 13912
+    },
+    {
+      "puan": 401.541,
+      "siralama": 14510
+    },
+    {
+      "puan": 401.325,
+      "siralama": 14641
+    },
+    {
+      "puan": 396.747,
+      "siralama": 17572
+    },
+    {
+      "puan": 396.395,
+      "siralama": 17826
+    },
+    {
+      "puan": 395.821,
+      "siralama": 18257
+    },
+    {
+      "puan": 394.757,
+      "siralama": 19020
+    },
+    {
+      "puan": 393.028,
+      "siralama": 20229
+    },
+    {
+      "puan": 391.183,
+      "siralama": 21778
+    },
+    {
+      "puan": 390.37,
+      "siralama": 22440
+    },
+    {
+      "puan": 388.894,
+      "siralama": 23703
+    },
+    {
+      "puan": 388.805,
+      "siralama": 23780
+    },
+    {
+      "puan": 388.429,
+      "siralama": 24128
+    },
+    {
+      "puan": 388.294,
+      "siralama": 24250
+    },
+    {
+      "puan": 387.204,
+      "siralama": 25241
+    },
+    {
+      "puan": 386.449,
+      "siralama": 25924
+    },
+    {
+      "puan": 386.39,
+      "siralama": 25978
+    },
+    {
+      "puan": 385.999,
+      "siralama": 26341
+    },
+    {
+      "puan": 385.867,
+      "siralama": 26463
+    },
+    {
+      "puan": 385.829,
+      "siralama": 26498
+    },
+    {
+      "puan": 385.204,
+      "siralama": 27116
+    },
+    {
+      "puan": 384.924,
+      "siralama": 27393
+    },
+    {
+      "puan": 383.874,
+      "siralama": 28434
+    },
+    {
+      "puan": 383.676,
+      "siralama": 28630
+    },
+    {
+      "puan": 382.378,
+      "siralama": 29958
+    },
+    {
+      "puan": 381.522,
+      "siralama": 30867
+    },
+    {
+      "puan": 380.702,
+      "siralama": 31742
+    },
+    {
+      "puan": 380.558,
+      "siralama": 31899
+    },
+    {
+      "puan": 380.158,
+      "siralama": 32325
+    },
+    {
+      "puan": 379.886,
+      "siralama": 32625
+    },
+    {
+      "puan": 379.658,
+      "siralama": 32887
+    },
+    {
+      "puan": 379.446,
+      "siralama": 33130
+    },
+    {
+      "puan": 378.878,
+      "siralama": 33781
+    },
+    {
+      "puan": 378.698,
+      "siralama": 33987
+    },
+    {
+      "puan": 378.121,
+      "siralama": 34669
+    },
+    {
+      "puan": 377.648,
+      "siralama": 35229
+    },
+    {
+      "puan": 377.166,
+      "siralama": 35800
+    },
+    {
+      "puan": 377.078,
+      "siralama": 35904
+    },
+    {
+      "puan": 376.743,
+      "siralama": 36301
+    },
+    {
+      "puan": 373.817,
+      "siralama": 39978
+    },
+    {
+      "puan": 373.124,
+      "siralama": 40908
+    },
+    {
+      "puan": 372.834,
+      "siralama": 41295
+    },
+    {
+      "puan": 372.521,
+      "siralama": 41716
+    },
+    {
+      "puan": 371.788,
+      "siralama": 42698
+    },
+    {
+      "puan": 371.629,
+      "siralama": 42910
+    },
+    {
+      "puan": 371.416,
+      "siralama": 43196
+    },
+    {
+      "puan": 371.168,
+      "siralama": 43540
+    },
+    {
+      "puan": 370.306,
+      "siralama": 44792
+    },
+    {
+      "puan": 370.116,
+      "siralama": 45068
+    },
+    {
+      "puan": 369.805,
+      "siralama": 45529
+    },
+    {
+      "puan": 369.69,
+      "siralama": 45701
+    },
+    {
+      "puan": 369.234,
+      "siralama": 46382
+    },
+    {
+      "puan": 368.542,
+      "siralama": 47415
+    },
+    {
+      "puan": 368.075,
+      "siralama": 48107
+    },
+    {
+      "puan": 367.585,
+      "siralama": 48869
+    },
+    {
+      "puan": 366.719,
+      "siralama": 50163
+    },
+    {
+      "puan": 366.711,
+      "siralama": 50176
+    },
+    {
+      "puan": 366.469,
+      "siralama": 50544
+    },
+    {
+      "puan": 365.515,
+      "siralama": 52066
+    },
+    {
+      "puan": 364.664,
+      "siralama": 53507
+    },
+    {
+      "puan": 364.528,
+      "siralama": 53737
+    },
+    {
+      "puan": 363.069,
+      "siralama": 56201
+    },
+    {
+      "puan": 362.382,
+      "siralama": 57390
+    },
+    {
+      "puan": 362.141,
+      "siralama": 57806
+    },
+    {
+      "puan": 361.989,
+      "siralama": 58070
+    },
+    {
+      "puan": 361.938,
+      "siralama": 58157
+    },
+    {
+      "puan": 360.278,
+      "siralama": 61175
+    },
+    {
+      "puan": 358.245,
+      "siralama": 64806
+    },
+    {
+      "puan": 358.076,
+      "siralama": 65213
+    },
+    {
+      "puan": 357.84,
+      "siralama": 65781
+    },
+    {
+      "puan": 357.771,
+      "siralama": 65943
+    },
+    {
+      "puan": 354.618,
+      "siralama": 72379
+    },
+    {
+      "puan": 351.419,
+      "siralama": 79268
+    },
+    {
+      "puan": 326.226,
+      "siralama": 154052
+    }
+  ],
+  "DIL": []
+}

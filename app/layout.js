@@ -41,8 +41,8 @@ export default function RootLayout({ children }) {
           }}
         />
         
-        {/* Google AdSense Placeholder */}
-        {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> */}
+        {/* Google AdSense */}
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4546672067852912" crossOrigin="anonymous"></script>
       </head>
       <body>
         <Navbar />

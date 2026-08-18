@@ -7,7 +7,7 @@ export default function AdBanner() {
         {/* İleride AdSense kodunuzu buraya ekleyebilirsiniz */}
         {/* <ins className="adsbygoogle"
              style={{ display: "block" }}
-             data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+             data-ad-client="ca-pub-4546672067852912"
              data-ad-slot="XXXXXXXXXX"
              data-ad-format="auto"
              data-full-width-responsive="true"></ins>

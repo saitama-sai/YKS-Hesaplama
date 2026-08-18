@@ -5,6 +5,6 @@ export default function robots() {
       allow: '/',
       disallow: '/api/',
     },
-    sitemap: 'https://kazanabilirsin.vercel.app/sitemap.xml',
+    sitemap: 'https://yks-hesaplama.vercel.app/sitemap.xml',
   }
 }

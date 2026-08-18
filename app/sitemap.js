@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = 'https://kazanabilirsin.vercel.app'; // İleride gerçek domainle değişecek
+  const baseUrl = 'https://yks-hesaplama.vercel.app'; // İleride gerçek domainle değişebilir
 
   return [
     {

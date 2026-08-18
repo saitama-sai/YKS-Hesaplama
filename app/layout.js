@@ -28,18 +28,18 @@ export default function RootLayout({ children }) {
   return (
     <html lang="tr" className={inter.variable}>
       <head>
-        {/* Google Analytics Placeholder */}
-        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-JDZ2Z15EWX"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-XXXXXXXXXX');
+              gtag('config', 'G-JDZ2Z15EWX');
             `,
           }}
-        /> */}
+        />
         
         {/* Google AdSense Placeholder */}
         {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> */}

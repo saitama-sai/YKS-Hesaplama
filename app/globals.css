@@ -139,3 +139,60 @@ body::before {
   margin: 0 auto;
   padding: 0 20px;
 }
+
+.layout-row {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.sidebar-wrapper {
+  flex-shrink: 0;
+}
+
+.content-wrapper {
+  flex: 1;
+  min-width: 0;
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .layout-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .sidebar-wrapper {
+    width: 100%;
+  }
+  
+  .search-form {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .search-form button {
+    width: 100%;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+}

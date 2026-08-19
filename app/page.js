@@ -20,14 +20,14 @@ export default function Home() {
   return (
     <main className="container" style={{ maxWidth: '1400px' }}>
       <div style={{ paddingTop: '40px', paddingBottom: '60px' }}>
-        <h1 style={{ textAlign: 'center', marginBottom: '10px', fontSize: '2.5rem' }}>
+        <h1 className="page-title">
           Üniversite ve Bölüm Sıralamaları
         </h1>
         <p style={{ textAlign: 'center', color: 'var(--text-muted)', marginBottom: '30px', fontSize: '1.1rem' }}>
           A'dan Z'ye bölümleri seçin veya arama yapın.
         </p>
 
-        <form onSubmit={handleSearch} style={{ display: 'flex', gap: '10px', maxWidth: '600px', margin: '0 auto 40px auto' }}>
+        <form onSubmit={handleSearch} className="search-form">
           <input 
             type="text" 
             className="input-field" 
@@ -40,15 +40,15 @@ export default function Home() {
           </button>
         </form>
         
-        <div style={{ display: 'flex', gap: '30px', alignItems: 'flex-start' }}>
-          <div style={{ flexShrink: 0 }}>
+        <div className="layout-row">
+          <div className="sidebar-wrapper">
             <ProfessionSidebar 
               selectedProfession={searchTerm} 
               onSelectProfession={handleProfessionSelect} 
             />
           </div>
           
-          <div style={{ flex: 1, minWidth: 0 }}>
+          <div className="content-wrapper">
             <UniversityList searchTerm={searchTerm} />
           </div>
         </div>

@@ -12,7 +12,7 @@ export default function Hesapla() {
   return (
     <main className="container">
       <div style={{ paddingTop: '60px', paddingBottom: '60px' }}>
-        <h1 style={{ textAlign: 'center', marginBottom: '20px', fontSize: '2.5rem' }}>
+        <h1 className="page-title">
           YKS Puanını Hesapla
         </h1>
         <p style={{ textAlign: 'center', color: 'var(--text-muted)', marginBottom: '50px', fontSize: '1.1rem' }}>

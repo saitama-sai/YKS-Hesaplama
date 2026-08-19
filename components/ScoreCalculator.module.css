@@ -42,3 +42,18 @@
   padding: 16px;
   font-size: 1.1rem;
 }
+
+@media (max-width: 768px) {
+  .calculatorCard {
+    padding: 15px;
+  }
+  
+  .header h2 {
+    font-size: 1.5rem;
+  }
+  
+  .header p {
+    font-size: 0.95rem;
+  }
+}
+

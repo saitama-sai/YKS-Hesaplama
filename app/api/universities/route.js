@@ -23,13 +23,23 @@ export async function GET(request) {
 
   const allData = getData();
 
-  // Arama mantığı: Eğer query varsa bolum içinde geçiyor mu diye bak. (İstersek uni de aranabilir)
+  // Arama mantığı: Önce tam eşleşme (bölüm bazında) ara. 
+  // Tam eşleşme varsa (örn: "İşletme"), "İşletme Mühendisliği" gibi kelime içerenleri dahil etme.
   let filteredData = allData;
   if (query) {
-    filteredData = allData.filter((item) => 
-      item.bolum?.toLocaleLowerCase('tr-TR').includes(query) || 
-      item.uni?.toLocaleLowerCase('tr-TR').includes(query)
-    );
+    const exactMatches = allData.filter((item) => {
+      const baseName = (item.bolum || '').replace(/\(.*\)/g, '').trim().toLocaleLowerCase('tr-TR');
+      return baseName === query;
+    });
+
+    if (exactMatches.length > 0) {
+      filteredData = exactMatches;
+    } else {
+      filteredData = allData.filter((item) => 
+        item.bolum?.toLocaleLowerCase('tr-TR').includes(query) || 
+        item.uni?.toLocaleLowerCase('tr-TR').includes(query)
+      );
+    }
   }
 
   // Puana göre yüksekten düşüğe sıralama

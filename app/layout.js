@@ -23,28 +23,32 @@ export const metadata = {
 };
 
 import Navbar from "@/components/Navbar";
+import Script from "next/script";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="tr" className={inter.variable}>
       <head>
-        {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-JDZ2Z15EWX"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-JDZ2Z15EWX');
-            `,
-          }}
-        />
-        
-        {/* Google AdSense */}
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4546672067852912" crossOrigin="anonymous"></script>
       </head>
       <body>
+        {/* Google Analytics */}
+        <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-JDZ2Z15EWX" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-JDZ2Z15EWX');
+          `}
+        </Script>
+
+        {/* Google AdSense */}
+        <Script 
+          strategy="afterInteractive" 
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4546672067852912" 
+          crossOrigin="anonymous" 
+        />
+
         <Navbar />
         {children}
       </body>

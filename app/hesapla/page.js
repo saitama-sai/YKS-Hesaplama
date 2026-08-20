@@ -26,6 +26,18 @@ export default function Hesapla() {
             <h2 style={{ textAlign: 'center', marginBottom: '30px', fontSize: '2rem' }}>Hesaplama Sonuçları</h2>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '20px' }}>
               
+              {/* TYT Kartı */}
+              <div className="glass-panel" style={{ padding: '25px', textAlign: 'center' }}>
+                <h3 style={{ fontSize: '1.2rem', marginBottom: '10px', color: 'var(--text-muted)' }}>TYT (Y-TYT)</h3>
+                <div style={{ fontSize: '2rem', fontWeight: '800', color: 'var(--success)' }}>
+                  {calculatedScore.TYT?.puan || '-'}
+                </div>
+                <div style={{ fontSize: '1.5rem', fontWeight: '700', color: 'var(--primary)', marginTop: '10px' }}>
+                  {calculatedScore.TYT?.siralama ? calculatedScore.TYT.siralama.toLocaleString('tr-TR') : '-'}
+                </div>
+                <div style={{ fontSize: '0.9rem', color: 'var(--text-muted)', marginTop: '5px' }}>Tahmini Sıralama</div>
+              </div>
+
               {/* Sayısal Kartı */}
               <div className="glass-panel" style={{ padding: '25px', textAlign: 'center' }}>
                 <h3 style={{ fontSize: '1.2rem', marginBottom: '10px', color: 'var(--text-muted)' }}>SAYISAL (Y-SAY)</h3>

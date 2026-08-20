@@ -5037,5 +5037,99 @@
       "siralama": 154052
     }
   ],
-  "DIL": []
+  "DIL": [],
+  "TYT": [
+    {
+      "puan": 550,
+      "siralama": 112
+    },
+    {
+      "puan": 530,
+      "siralama": 2045
+    },
+    {
+      "puan": 510,
+      "siralama": 8638
+    },
+    {
+      "puan": 490,
+      "siralama": 22600
+    },
+    {
+      "puan": 470,
+      "siralama": 45313
+    },
+    {
+      "puan": 450,
+      "siralama": 76021
+    },
+    {
+      "puan": 430,
+      "siralama": 115071
+    },
+    {
+      "puan": 410,
+      "siralama": 163211
+    },
+    {
+      "puan": 390,
+      "siralama": 225038
+    },
+    {
+      "puan": 370,
+      "siralama": 305570
+    },
+    {
+      "puan": 350,
+      "siralama": 412011
+    },
+    {
+      "puan": 330,
+      "siralama": 553526
+    },
+    {
+      "puan": 310,
+      "siralama": 735519
+    },
+    {
+      "puan": 290,
+      "siralama": 961261
+    },
+    {
+      "puan": 270,
+      "siralama": 1219171
+    },
+    {
+      "puan": 250,
+      "siralama": 1499060
+    },
+    {
+      "puan": 230,
+      "siralama": 1782951
+    },
+    {
+      "puan": 210,
+      "siralama": 2033331
+    },
+    {
+      "puan": 190,
+      "siralama": 2166477
+    },
+    {
+      "puan": 170,
+      "siralama": 2186977
+    },
+    {
+      "puan": 150,
+      "siralama": 2187734
+    },
+    {
+      "puan": 130,
+      "siralama": 2187742
+    },
+    {
+      "puan": 115,
+      "siralama": 2187743
+    }
+  ]
 }

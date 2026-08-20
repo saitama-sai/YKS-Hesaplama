@@ -87,16 +87,19 @@ export default function ScoreCalculator({ onCalculate }) {
     let say_yerlestirme = Math.max(115, Math.min(560, say_ham + obp_katkisi));
     let ea_yerlestirme = Math.max(115, Math.min(560, ea_ham + obp_katkisi));
     let soz_yerlestirme = Math.max(115, Math.min(560, soz_ham + obp_katkisi));
+    let tyt_yerlestirme = Math.max(115, Math.min(560, tyt_ham + obp_katkisi));
 
     // 3. Sıralama Hesaplama
     let siralamaSAY = hesaplaSiralama(say_yerlestirme, 'SAY');
     let siralamaEA = hesaplaSiralama(ea_yerlestirme, 'EA');
     let siralamaSOZ = hesaplaSiralama(soz_yerlestirme, 'SOZ');
+    let siralamaTYT = hesaplaSiralama(tyt_yerlestirme, 'TYT');
 
     onCalculate({
       SAY: { puan: say_yerlestirme.toFixed(4), siralama: siralamaSAY },
       EA: { puan: ea_yerlestirme.toFixed(4), siralama: siralamaEA },
-      SOZ: { puan: soz_yerlestirme.toFixed(4), siralama: siralamaSOZ }
+      SOZ: { puan: soz_yerlestirme.toFixed(4), siralama: siralamaSOZ },
+      TYT: { puan: tyt_yerlestirme.toFixed(4), siralama: siralamaTYT }
     });
   };
 

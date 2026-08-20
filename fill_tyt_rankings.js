@@ -32,7 +32,7 @@ function hesaplaSiralama(puan, alanKey) {
 
 let updated = 0;
 for (let i = 0; i < veriler.length; i++) {
-  if (veriler[i].puanTuru === 'TYT' && veriler[i].puan && !veriler[i].siralama) {
+  if (veriler[i].puanTuru === 'TYT' && veriler[i].puan) {
     const calc = hesaplaSiralama(veriler[i].puan, 'TYT');
     if (calc !== null) {
       veriler[i].siralama = calc;

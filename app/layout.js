@@ -23,6 +23,7 @@ export const metadata = {
 };
 
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import Script from "next/script";
 import { CompareProvider } from "@/context/CompareContext";
 
@@ -51,8 +52,13 @@ export default function RootLayout({ children }) {
         />
 
         <CompareProvider>
-          <Navbar />
-          {children}
+          <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+            <Navbar />
+            <div style={{ flex: 1 }}>
+              {children}
+            </div>
+            <Footer />
+          </div>
         </CompareProvider>
       </body>
     </html>

@@ -23,23 +23,37 @@ export async function GET(request) {
 
   const allData = getData();
 
-  // Arama mantığı: Önce tam eşleşme (bölüm bazında) ara. 
-  // Tam eşleşme varsa (örn: "İşletme"), "İşletme Mühendisliği" gibi kelime içerenleri dahil etme.
+  // Arama mantığı: Virgülle ayrılmış birden fazla sorgu olabilir (Harmanlama için)
   let filteredData = allData;
   if (query) {
-    const exactMatches = allData.filter((item) => {
-      const baseName = (item.bolum || '').replace(/\(.*\)/g, '').trim().toLocaleLowerCase('tr-TR');
-      return baseName === query;
+    const queries = query.split(',').map(q => q.trim()).filter(Boolean);
+    let combinedResults = [];
+
+    queries.forEach(q => {
+      const exactMatches = allData.filter((item) => {
+        const baseName = (item.bolum || '').replace(/\(.*\)/g, '').trim().toLocaleLowerCase('tr-TR');
+        return baseName === q;
+      });
+
+      if (exactMatches.length > 0) {
+        combinedResults.push(...exactMatches);
+      } else {
+        const partialMatches = allData.filter((item) => 
+          item.bolum?.toLocaleLowerCase('tr-TR').includes(q) || 
+          item.uni?.toLocaleLowerCase('tr-TR').includes(q)
+        );
+        combinedResults.push(...partialMatches);
+      }
     });
 
-    if (exactMatches.length > 0) {
-      filteredData = exactMatches;
-    } else {
-      filteredData = allData.filter((item) => 
-        item.bolum?.toLocaleLowerCase('tr-TR').includes(query) || 
-        item.uni?.toLocaleLowerCase('tr-TR').includes(query)
-      );
-    }
+    // Remove duplicates based on ID (if any item matched multiple queries)
+    const uniqueMap = new Map();
+    combinedResults.forEach(item => {
+      if (!uniqueMap.has(item.id)) {
+        uniqueMap.set(item.id, item);
+      }
+    });
+    filteredData = Array.from(uniqueMap.values());
   }
 
   // Puana göre yüksekten düşüğe sıralama

@@ -1,0 +1,99 @@
+.tableWrapper {
+  width: 100%;
+  overflow-x: auto;
+  background: rgba(17, 24, 39, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 1px;
+}
+
+.historyTable {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 800px;
+}
+
+.historyTable th,
+.historyTable td {
+  padding: 14px 16px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+  font-size: 0.95rem;
+}
+
+.historyTable th {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: var(--text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+}
+
+.historyTable th:first-child,
+.historyTable td:first-child {
+  text-align: left;
+}
+
+.historyTable th:nth-child(2),
+.historyTable td:nth-child(2) {
+  text-align: left;
+}
+
+.historyTable th:last-child,
+.historyTable td:last-child {
+  border-right: none;
+}
+
+.historyTable tr:last-child td {
+  border-bottom: none;
+}
+
+.uniName {
+  font-weight: 600;
+  color: var(--text-main);
+  font-size: 0.95rem;
+}
+
+.bolumName {
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.historyTable tbody tr {
+  transition: background-color 0.2s;
+}
+
+.historyTable tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.historyTable tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.01);
+}
+
+.currentYear {
+  background-color: rgba(99, 102, 241, 0.15) !important;
+  color: var(--primary) !important;
+}
+
+.currentYearValue {
+  background-color: rgba(99, 102, 241, 0.05);
+  color: var(--primary) !important;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .historyTable {
+    font-size: 0.85rem;
+  }
+  
+  .historyTable th,
+  .historyTable td {
+    padding: 10px 12px;
+  }
+}

@@ -25,6 +25,12 @@ export default function Navbar() {
           Bölüm Sıralamaları
         </Link>
         <Link 
+          href="/son-5-yil" 
+          className={`${styles.navLink} ${pathname === '/son-5-yil' ? styles.active : ''}`}
+        >
+          Son 5 Yıl
+        </Link>
+        <Link 
           href="/harmanla" 
           className={`${styles.navLink} ${pathname === '/harmanla' ? styles.active : ''}`}
         >

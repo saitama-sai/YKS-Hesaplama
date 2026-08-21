@@ -128,6 +128,14 @@
     justify-content: space-between;
   }
   
+  .actionCol {
+    width: 100%;
+    padding-left: 0 !important;
+    padding-top: 16px;
+    border-top: 1px solid var(--border-color);
+    justify-content: center;
+  }
+  
   .logoPlaceholder {
     width: 48px;
     height: 48px;

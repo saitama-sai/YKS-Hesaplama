@@ -1,0 +1,128 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.tableWrapper {
+  width: 100%;
+  overflow-x: auto;
+  background: rgba(17, 24, 39, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 1px;
+}
+
+.compareTable {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+.compareTable th,
+.compareTable td {
+  padding: 16px 20px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.compareTable th:last-child,
+.compareTable td:last-child {
+  border-right: none;
+}
+
+.compareTable tr:last-child td {
+  border-bottom: none;
+}
+
+.labelCol {
+  width: 180px;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+}
+
+.itemCol {
+  width: 25%;
+  min-width: 200px;
+  background-color: rgba(99, 102, 241, 0.05);
+}
+
+.thContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.thTitle {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-main);
+  line-height: 1.3;
+}
+
+.removeBtn {
+  background: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.removeBtn:hover {
+  background: #ef4444;
+  color: white;
+}
+
+.labelCell {
+  background-color: rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.valueCell {
+  color: var(--text-main);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Alternate row styling for better readability */
+.compareTable tbody tr:nth-child(even) .valueCell {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+@media (max-width: 768px) {
+  .compareTable {
+    font-size: 0.9rem;
+  }
+  
+  .compareTable th,
+  .compareTable td {
+    padding: 12px 15px;
+  }
+  
+  .thTitle {
+    font-size: 0.95rem;
+  }
+}

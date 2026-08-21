@@ -1,10 +1,12 @@
 'use client';
 import { useState, useEffect } from 'react';
+import { useCompare } from '@/context/CompareContext';
 import styles from './UniversityList.module.css';
 
 import AdBanner from './AdBanner';
 
 export default function UniversityList({ searchTerm }) {
+  const { isInCompare, addToCompare, removeFromCompare } = useCompare();
   const [universities, setUniversities] = useState([]);
   const [loading, setLoading] = useState(false);
   const [page, setPage] = useState(1);
@@ -76,6 +78,25 @@ export default function UniversityList({ searchTerm }) {
                     {uni.puan ? parseFloat(uni.puan).toFixed(2) : '-'}
                   </span>
                 </div>
+              </div>
+              <div className={styles.actionCol} style={{ display: 'flex', alignItems: 'center', paddingLeft: '15px' }}>
+                {isInCompare(uni.id) ? (
+                  <button 
+                    onClick={() => removeFromCompare(uni.id)}
+                    className="btn-primary"
+                    style={{ backgroundColor: 'var(--danger)', fontSize: '0.8rem', padding: '6px 12px' }}
+                  >
+                    - Çıkar
+                  </button>
+                ) : (
+                  <button 
+                    onClick={() => addToCompare(uni)}
+                    className="btn-primary"
+                    style={{ fontSize: '0.8rem', padding: '6px 12px' }}
+                  >
+                    + Karşılaştır
+                  </button>
+                )}
               </div>
             </div>
             {/* Show an ad banner every 10 results */}

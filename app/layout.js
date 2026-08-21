@@ -24,6 +24,7 @@ export const metadata = {
 
 import Navbar from "@/components/Navbar";
 import Script from "next/script";
+import { CompareProvider } from "@/context/CompareContext";
 
 export default function RootLayout({ children }) {
   return (
@@ -49,8 +50,10 @@ export default function RootLayout({ children }) {
           crossOrigin="anonymous" 
         />
 
-        <Navbar />
-        {children}
+        <CompareProvider>
+          <Navbar />
+          {children}
+        </CompareProvider>
       </body>
     </html>
   );

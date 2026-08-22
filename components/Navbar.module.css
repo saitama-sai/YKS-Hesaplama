@@ -89,7 +89,8 @@
   margin-top: 10px;
 }
 
-.dropdown:hover .dropdownContent {
+.dropdown:hover .dropdownContent,
+.dropdownContent.show {
   display: flex;
   flex-direction: column;
 }

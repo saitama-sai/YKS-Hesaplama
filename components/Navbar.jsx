@@ -1,4 +1,5 @@
 'use client';
+import { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useCompare } from '@/context/CompareContext';
@@ -7,6 +8,20 @@ import styles from './Navbar.module.css';
 export default function Navbar() {
   const pathname = usePathname();
   const { compareList } = useCompare();
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const dropdownRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setDropdownOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
 
   return (
     <nav className={`glass-panel ${styles.navbar}`}>
@@ -54,15 +69,19 @@ export default function Navbar() {
         >
           Karşılaştır {compareList?.length > 0 && <span className={styles.badge}>{compareList.length}</span>}
         </Link>
-        <div className={styles.dropdown}>
-          <button className={styles.navLink} style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '1rem' }}>
+        <div className={styles.dropdown} ref={dropdownRef}>
+          <button 
+            className={styles.navLink} 
+            style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '1rem', width: '100%' }}
+            onClick={() => setDropdownOpen(!dropdownOpen)}
+          >
             Öğrenci Araçları ▾
           </button>
-          <div className={styles.dropdownContent}>
-            <Link href="/hedef-net" className={styles.dropdownItem}>🎯 Hedef Net Sihirbazı</Link>
-            <Link href="/deneme-takip" className={styles.dropdownItem}>📈 Deneme Takip</Link>
-            <Link href="/konu-takip" className={styles.dropdownItem}>📚 Konu Çizelgesi</Link>
-            <Link href="/pomodoro" className={styles.dropdownItem}>⏱️ Pomodoro & Sayaç</Link>
+          <div className={`${styles.dropdownContent} ${dropdownOpen ? styles.show : ''}`}>
+            <Link href="/hedef-net" className={styles.dropdownItem} onClick={() => setDropdownOpen(false)}>🎯 Hedef Net Sihirbazı</Link>
+            <Link href="/deneme-takip" className={styles.dropdownItem} onClick={() => setDropdownOpen(false)}>📈 Deneme Takip</Link>
+            <Link href="/konu-takip" className={styles.dropdownItem} onClick={() => setDropdownOpen(false)}>📚 Konu Çizelgesi</Link>
+            <Link href="/pomodoro" className={styles.dropdownItem} onClick={() => setDropdownOpen(false)}>⏱️ Pomodoro & Sayaç</Link>
           </div>
         </div>
       </div>

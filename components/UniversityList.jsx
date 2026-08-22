@@ -2,6 +2,8 @@
 import { useState, useEffect } from 'react';
 import { useCompare } from '@/context/CompareContext';
 import styles from './UniversityList.module.css';
+import Link from 'next/link';
+import { slugify } from '@/utils/slugify';
 
 import AdBanner from './AdBanner';
 
@@ -57,8 +59,12 @@ export default function UniversityList({ searchTerm }) {
               </div>
 
               <div className={styles.infoCol}>
-                <h4 className={styles.uniName}>{uni.uni}</h4>
-                <p className={styles.department}>{uni.bolum}</p>
+                <Link href={`/universite/${slugify(uni.uni)}`} style={{ textDecoration: 'none' }}>
+                  <h4 className={styles.uniName} style={{ cursor: 'pointer' }}>{uni.uni}</h4>
+                </Link>
+                <Link href={`/bolum/${slugify(uni.bolum.replace(/\(.*\)/g, '').trim())}`} style={{ textDecoration: 'none' }}>
+                  <p className={styles.department} style={{ cursor: 'pointer' }}>{uni.bolum}</p>
+                </Link>
                 <div className={styles.details}>
                   <span className={styles.tag}>{uni.puanTuru || '-'}</span>
                   <span className={styles.tag}>Kontenjan: {uni.kontenjan || '-'}</span>

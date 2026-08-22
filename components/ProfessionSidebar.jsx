@@ -1,5 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
+import { slugify } from '@/utils/slugify';
 import styles from './ProfessionSidebar.module.css';
 
 export default function ProfessionSidebar({ onSelectProfession, selectedProfession }) {
@@ -54,13 +56,21 @@ export default function ProfessionSidebar({ onSelectProfession, selectedProfessi
             </li>
             {filteredProfessions.map((prof, idx) => (
               <li key={idx}>
-                <button 
-                  className={`${styles.professionBtn} ${selectedProfession === prof ? styles.active : ''}`}
-                  onClick={() => onSelectProfession(prof)}
-                  title={prof}
-                >
-                  {prof}
-                </button>
+                <Link href={`/bolum/${slugify(prof)}`} legacyBehavior>
+                  <a 
+                    className={`${styles.professionBtn} ${selectedProfession === prof ? styles.active : ''}`}
+                    onClick={(e) => {
+                      if (onSelectProfession) {
+                        e.preventDefault();
+                        onSelectProfession(prof);
+                      }
+                    }}
+                    title={prof}
+                    style={{ textDecoration: 'none', display: 'block' }}
+                  >
+                    {prof}
+                  </a>
+                </Link>
               </li>
             ))}
             {filteredProfessions.length === 0 && !loading && (

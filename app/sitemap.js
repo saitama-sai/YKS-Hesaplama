@@ -1,5 +1,24 @@
-export default function sitemap() {
+import { getUniqueUniversities, getUniqueProfessions } from '@/utils/data';
+
+export default async function sitemap() {
   const baseUrl = 'https://yks-hesaplama.vercel.app';
+
+  const universities = getUniqueUniversities();
+  const professions = getUniqueProfessions();
+
+  const universityUrls = universities.map(uni => ({
+    url: `${baseUrl}/universite/${uni.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.7,
+  }));
+
+  const professionUrls = professions.map(prof => ({
+    url: `${baseUrl}/bolum/${prof.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.7,
+  }));
 
   return [
     {
@@ -44,5 +63,7 @@ export default function sitemap() {
       changeFrequency: 'yearly',
       priority: 0.5,
     },
+    ...universityUrls,
+    ...professionUrls,
   ];
 }

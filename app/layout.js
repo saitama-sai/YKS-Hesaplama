@@ -7,7 +7,11 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "YKS Taban Puanları ve Sıralama Hesaplama 2026",
+  metadataBase: new URL('https://yks-hesaplama.vercel.app'),
+  title: {
+    default: "YKS Taban Puanları ve Sıralama Hesaplama 2026",
+    template: "%s | YKS Rehberim",
+  },
   description: "2026 güncel YKS üniversite taban puanları, başarı sıralamaları ve TYT/AYT netlerinize göre detaylı sıralama hesaplama aracı.",
   keywords: ["YKS 2026", "Taban Puanlar", "Başarı Sıralaması", "YKS Hesaplama", "Üniversite Puanları", "TYT", "AYT", "Eşit Ağırlık Hukuk Puanları", "Kazanabilirsin"],
   openGraph: {

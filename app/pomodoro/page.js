@@ -124,7 +124,7 @@ export default function PomodoroPage() {
           Tamamlanan Pomodoro: <strong style={{ color: 'var(--text-main)' }}>{sessionCount}</strong>
         </p>
 
-        <div style={{ 
+        <div className="pomo-timer" style={{ 
           fontSize: '6rem', 
           fontWeight: 'bold', 
           fontVariantNumeric: 'tabular-nums',
@@ -206,6 +206,11 @@ export default function PomodoroPage() {
           }
           .countdown-box .label {
             font-size: 0.7rem;
+          }
+        }
+        @media (max-width: 480px) {
+          .pomo-timer {
+            font-size: 4rem !important;
           }
         }
       `}</style>

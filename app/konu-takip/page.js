@@ -120,7 +120,7 @@ export default function KonuTakipPage() {
         </button>
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: '20px' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 320px), 1fr))', gap: '20px' }}>
         {Object.entries(KONULAR[activeTab]).map(([subject, topics]) => {
           const progress = calculateProgress(activeTab, subject);
           return (

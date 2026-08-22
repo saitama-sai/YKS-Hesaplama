@@ -37,6 +37,12 @@ export default function Navbar() {
           Bölüm Harmanla
         </Link>
         <Link 
+          href="/blog" 
+          className={`${styles.navLink} ${pathname.startsWith('/blog') ? styles.active : ''}`}
+        >
+          Blog
+        </Link>
+        <Link 
           href="/hesapla" 
           className={`${styles.navLink} ${pathname === '/hesapla' ? styles.active : ''}`}
         >
@@ -48,6 +54,17 @@ export default function Navbar() {
         >
           Karşılaştır {compareList?.length > 0 && <span className={styles.badge}>{compareList.length}</span>}
         </Link>
+        <div className={styles.dropdown}>
+          <button className={styles.navLink} style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '1rem' }}>
+            Öğrenci Araçları ▾
+          </button>
+          <div className={styles.dropdownContent}>
+            <Link href="/hedef-net" className={styles.dropdownItem}>🎯 Hedef Net Sihirbazı</Link>
+            <Link href="/deneme-takip" className={styles.dropdownItem}>📈 Deneme Takip</Link>
+            <Link href="/konu-takip" className={styles.dropdownItem}>📚 Konu Çizelgesi</Link>
+            <Link href="/pomodoro" className={styles.dropdownItem}>⏱️ Pomodoro & Sayaç</Link>
+          </div>
+        </div>
       </div>
     </nav>
   );

@@ -41,8 +41,19 @@
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
-    padding: 16px 20px;
-    gap: 15px;
+    padding: 12px 15px;
+    gap: 12px;
+  }
+  .navLinks {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+  .navLink {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    text-align: center;
+    flex-grow: 1; /* This helps distribute items evenly */
   }
 }
 
